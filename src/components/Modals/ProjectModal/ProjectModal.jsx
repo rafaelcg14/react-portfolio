@@ -1,7 +1,7 @@
 import React from 'react';
 import { createPortal } from 'react-dom';
 
-// import { getImageUrl } from '../../../utils';
+import { getImageUrl } from '../../../utils';
 
 import styles from './ProjectModal.module.css';
 
@@ -13,10 +13,16 @@ export const ProjectModal = ( {isOpened, onClose, children} ) => {
     }
     return (
     createPortal(
-        <div className={styles.container}>
+        <div className={styles.modal}>
             {/* <div className={styles.overlay}></div> */}
-            <div className={styles.content}>
-                <span className={styles.closeBtn} onClick={onClose}>X</span>
+            <div className={styles.container}>
+                {/* <span className={styles.closeBtn} onClick={onClose}>X</span> */}
+                <img 
+                className={styles.closeBtn} 
+                src={getImageUrl('nav/closeMenu.svg')} 
+                onClick={onClose}
+                alt="menu-button"
+                />
                 <div className={styles.children}>
                     {children}
                 </div>

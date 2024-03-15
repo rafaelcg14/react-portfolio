@@ -27,11 +27,13 @@ export const ProjectCard = ({project: {title, imageSrc, description, skills, dem
             <a className={styles.link} href={demo}>Demo</a>
             <button onClick={ () => setisModalOpened(true) }>Sample</button>
             <ProjectModal className={styles.projectModal} isOpened={isModalOpened} onClose={ () => setisModalOpened(false) }>
-                <h2>{title}</h2>
                 <div class="abc">
-                    <p>{description}</p>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis distinctio, quos alias dolorum quam, ab omnis, laboriosam nemo voluptas fuga itaque nisi odio expedita hic doloremque eum delectus dolor? Recusandae.</p>
                     <img src='https://picsum.photos/500/500' alt="image" />
+                    <div>
+                        <h2>{title}</h2>
+                        <p>{description}</p>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis distinctio, quos alias dolorum quam, ab omnis, laboriosam nemo voluptas fuga itaque nisi odio expedita hic doloremque eum delectus dolor? Recusandae.</p>
+                    </div>
                 </div>
             </ProjectModal>
             <a className={styles.link} href={source}>Source</a>
