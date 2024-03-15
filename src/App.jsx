@@ -5,6 +5,7 @@ import { About } from './components/About/About';
 import { Experience } from './components/Experience/Experience';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
+import { ProjectModal } from './components/Modals/ProjectModal/ProjectModal';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Experience/>
       <Projects/>
+      <ProjectModal/>
       <Contact/>
     </div>
   )
