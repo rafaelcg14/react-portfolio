@@ -26,7 +26,9 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                 </div>
                 <div className={styles.content}>
                     {/* <img src='https://picsum.photos/500/500' alt="image" /> */}
-                    <img className={styles.imageItem} src={getImageUrl('project-samples/sample-4.jpeg')} alt="image" />
+                    <div className={styles.imageItemContainer}>
+                        <img className={styles.imageItem} src={getImageUrl('project-samples/sample-4.jpeg')} alt="image" />
+                    </div>
                     {/* <img src={getImageUrl('about/aboutImage.png')} alt="image" /> */}
                     <div className={styles.contentItem}>
                         <h2>{details.title}</h2>
