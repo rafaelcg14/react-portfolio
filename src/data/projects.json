@@ -5,7 +5,26 @@
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://www.github.com",
+      "images": [
+        "project-samples/sample-2.jpeg",
+        "project-samples/sample-3.jpeg",
+        "project-samples/sample-4.jpeg"
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        },
+        {
+          "name": "ZBrush",
+          "imageSrc": "skills/zbrush-icon.svg"
+        },
+        {
+          "name": "Substance 3D Painter",
+          "imageSrc": "skills/substance-painter-icon.svg"
+        }
+      ]
     },
     {
       "title": "Project B",
@@ -13,7 +32,26 @@
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node", "Sass"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://www.github.com",
+      "images": [
+        "project-samples/sample-2.jpeg",
+        "project-samples/sample-3.jpeg",
+        "project-samples/sample-4.jpeg"
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        },
+        {
+          "name": "ZBrush",
+          "imageSrc": "skills/zbrush-icon.svg"
+        },
+        {
+          "name": "Substance 3D Painter",
+          "imageSrc": "skills/substance-painter-icon.svg"
+        }
+      ]
     },
     {
       "title": "Project C",
@@ -21,6 +59,25 @@
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://www.github.com",
+      "images": [
+        "project-samples/sample-2.jpeg",
+        "project-samples/sample-3.jpeg",
+        "project-samples/sample-4.jpeg"
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        },
+        {
+          "name": "ZBrush",
+          "imageSrc": "skills/zbrush-icon.svg"
+        },
+        {
+          "name": "Substance 3D Painter",
+          "imageSrc": "skills/substance-painter-icon.svg"
+        }
+      ]
     }
   ]

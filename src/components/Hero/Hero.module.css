@@ -76,7 +76,8 @@
     top: -128px;
     left: -10vw;
     border: 764px;
-    background: rgba(25, 55, 109, 0.7);
+    /* background: rgba(25, 55, 109, 0.7); */
+    background: rgba(34, 34, 34, 0.5);
     filter: blur(100px);
     z-index: 0;
 
@@ -90,7 +91,8 @@
     top: 246px;
     right: -25vw;
     border: 764px;
-    background: rgba(25, 55, 109, 0.7);
+    /* background: rgba(25, 55, 109, 0.7); */
+    background: rgba(34, 34, 34, 0.5);
     filter: blur(100px);
     z-index: 0;
 }

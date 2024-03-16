@@ -1,19 +1,19 @@
 [
     {
-      "title": "HTML",
-      "imageSrc": "skills/react.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/react.png"
-    },
-    {
       "title": "React",
       "imageSrc": "skills/react.png"
     },
     {
-      "title": "Node",
-      "imageSrc": "skills/react.png"
+      "title": "Maya",
+      "imageSrc": "skills/maya-icon.svg"
+    },
+    {
+      "title": "Substance Painter",
+      "imageSrc": "skills/substance-painter-icon.svg"
+    },
+    {
+      "title": "ZBrush",
+      "imageSrc": "skills/zbrush-icon.svg"
     },
     {
       "title": "GraphQL",
