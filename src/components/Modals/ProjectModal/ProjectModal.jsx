@@ -1,6 +1,12 @@
 import React from 'react';
 import { createPortal } from 'react-dom';
 
+import ImageGallery from 'react-image-gallery';
+import "react-image-gallery/styles/css/image-gallery.css";
+import image1 from '../../../../assets/project-samples/sample-2.jpeg';
+import image2 from '../../../../assets/project-samples/sample-3.jpeg';
+import image3 from '../../../../assets/project-samples/sample-4.jpeg';
+
 import { getImageUrl } from '../../../utils';
 
 import styles from './ProjectModal.module.css';
@@ -8,6 +14,22 @@ import styles from './ProjectModal.module.css';
 const mountElement = document.getElementById('project-modal');
 
 export const ProjectModal = ( {isOpened, onClose, details} ) => {
+    
+    const images = [
+        {
+            original: image1,
+            thumbnail: image1,
+        },
+        {
+            original: image2,
+            thumbnail: image2,
+        },
+        {
+            original: image3,
+            thumbnail: image3,
+        }
+    ]
+
     // console.log(details);
 
     if ( !isOpened ) {
@@ -27,7 +49,19 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                 <div className={styles.content}>
                     {/* <img src='https://picsum.photos/500/500' alt="image" /> */}
                     <div className={styles.imageItemContainer}>
-                        <img className={styles.imageItem} src={getImageUrl('project-samples/sample-4.jpeg')} alt="image" />
+                        {/* <img className={styles.imageItem} src={getImageUrl('project-samples/sample-4.jpeg')} alt="image" /> */}
+                        <ImageGallery 
+                            className={styles.imageItem} 
+                            items={images}
+                            showPlayButton={false}
+                            showThumbnails={false}
+                            showNav={false}
+                            showBullets={true}
+                            autoPlay={true}
+                            slideDuration={600}
+                            slideInterval={4000}
+                            swipeThreshold={80}
+                        />
                     </div>
                     {/* <img src={getImageUrl('about/aboutImage.png')} alt="image" /> */}
                     <div className={styles.contentItem}>
