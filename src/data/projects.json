@@ -3,7 +3,7 @@
       "title": "Project A",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com",
       "images": [
@@ -23,6 +23,14 @@
         {
           "name": "Substance 3D Painter",
           "imageSrc": "skills/substance-painter-icon.svg"
+        },
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        },
+        {
+          "name": "ZBrush",
+          "imageSrc": "skills/zbrush-icon.svg"
         }
       ]
     },
@@ -30,7 +38,7 @@
       "title": "Project B",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
+      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com",
       "images": [
@@ -57,7 +65,7 @@
       "title": "Project C",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com",
       "images": [

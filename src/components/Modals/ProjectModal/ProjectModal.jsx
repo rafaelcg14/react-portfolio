@@ -17,16 +17,41 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
     
     const images = [
         {
-            original: image1,
-            thumbnail: image1,
+            // original: image1,
+            original: "https://picsum.photos/id/1019/1920/1920",
+            thumbnail: "https://picsum.photos/id/1019/1920/1080",
+            fullscreen: "https://picsum.photos/id/1019/1920/1080",
+            originalHeight: '520em',
+            // thumbnail: image1,
+            originalClass: 'imageItem',
         },
         {
-            original: image2,
-            thumbnail: image2,
+            original: "https://picsum.photos/id/1011/1920/1920",
+            thumbnail: "https://picsum.photos/id/1011/1920/1080",
+            fullscreen: "https://picsum.photos/id/1011/1920/1080",
+            originalHeight: '520em',
+            originalClass: 'imageItem'
         },
         {
-            original: image3,
-            thumbnail: image3,
+            original: "https://picsum.photos/id/1012/1920/1920",
+            thumbnail: "https://picsum.photos/id/1012/1920/1080",
+            fullscreen: "https://picsum.photos/id/1012/1920/1080",
+            originalHeight: '520em',
+            originalClass: 'imageItem'
+        },
+        {
+            original: "https://picsum.photos/id/1013/1920/1920",
+            thumbnail: "https://picsum.photos/id/1013/1920/1080",
+            fullscreen: "https://picsum.photos/id/1013/1920/1080",
+            originalHeight: '520em',
+            originalClass: 'imageItem'
+        },
+        {
+            original: "https://picsum.photos/id/1014/1920/1920",
+            thumbnail: "https://picsum.photos/id/1014/1920/1080",
+            fullscreen: "https://picsum.photos/id/1014/1920/1080",
+            originalHeight: '520em',
+            originalClass: 'imageItem'
         }
     ]
 
@@ -51,16 +76,15 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                     <div className={styles.imageItemContainer}>
                         {/* <img className={styles.imageItem} src={getImageUrl('project-samples/sample-4.jpeg')} alt="image" /> */}
                         <ImageGallery 
-                            className={styles.imageItem} 
+                            className={styles.imageItem2} 
                             items={images}
-                            showPlayButton={false}
-                            showThumbnails={false}
+                            // showThumbnails={false}
                             showNav={false}
-                            showBullets={true}
+                            // showBullets={true}
+                            thumbnailPosition={'left'}
                             autoPlay={true}
-                            slideDuration={600}
+                            slideDuration={1000}
                             slideInterval={4000}
-                            swipeThreshold={80}
                         />
                     </div>
                     {/* <img src={getImageUrl('about/aboutImage.png')} alt="image" /> */}
@@ -69,6 +93,13 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                         <p>{details.description}</p>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis distinctio, quos alias dolorum quam, ab omnis, laboriosam nemo voluptas fuga itaque nisi odio expedita hic doloremque eum delectus dolor? Recusandae.</p>
                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis distinctio, quos alias dolorum quam, ab omnis, laboriosam nemo voluptas fuga itaque nisi odio expedita hic doloremque eum delectus dolor? Recusandae.</p>
+                        <ul className={styles.skills}>
+                            {
+                                details.skills.map( (skill, id) => {
+                                    return <li className={styles.skill} key={id}>{skill}</li>
+                                } )
+                            }
+                        </ul>
                         <div className={styles.tools}>
                             { details.tools.map( (tool, id) => {
                                 return (
@@ -81,6 +112,9 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                                 );
                             } ) }
                         </div>
+                    </div>
+                    <div className={styles.videoContainer}>
+                            video
                     </div>
                 </div>
             </div>
