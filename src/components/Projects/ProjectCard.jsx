@@ -1,5 +1,5 @@
 import React from 'react'
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 import { ProjectModal } from '../Modals/ProjectModal/ProjectModal';
 
@@ -11,6 +11,12 @@ export const ProjectCard = ({project: {title, imageSrc, description, skills, dem
     const [isModalOpened, setisModalOpened] = useState(false);
     console.log('isModalOpened', isModalOpened);
 
+    useEffect(() => {
+        const body = document.querySelector('body');
+        body.style.overflow = isModalOpened ? 'hidden' : 'auto';
+      }, [isModalOpened])
+    
+      
     return (
         <div>
             <ProjectModal 

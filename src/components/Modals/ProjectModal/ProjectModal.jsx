@@ -15,13 +15,14 @@ const mountElement = document.getElementById('project-modal');
 
 export const ProjectModal = ( {isOpened, onClose, details} ) => {
     
+
     const images = [
         {
             // original: image1,
             original: "https://picsum.photos/id/1019/1920/1920",
             thumbnail: "https://picsum.photos/id/1019/1920/1080",
             fullscreen: "https://picsum.photos/id/1019/1920/1080",
-            originalHeight: '520em',
+            // originalHeight: 'auto',
             // thumbnail: image1,
             originalClass: 'imageItem',
         },
@@ -29,28 +30,28 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
             original: "https://picsum.photos/id/1011/1920/1920",
             thumbnail: "https://picsum.photos/id/1011/1920/1080",
             fullscreen: "https://picsum.photos/id/1011/1920/1080",
-            originalHeight: '520em',
+            // originalHeight: 'auto',
             originalClass: 'imageItem'
         },
         {
             original: "https://picsum.photos/id/1012/1920/1920",
             thumbnail: "https://picsum.photos/id/1012/1920/1080",
             fullscreen: "https://picsum.photos/id/1012/1920/1080",
-            originalHeight: '520em',
+            // originalHeight: 'auto',
             originalClass: 'imageItem'
         },
         {
             original: "https://picsum.photos/id/1013/1920/1920",
             thumbnail: "https://picsum.photos/id/1013/1920/1080",
             fullscreen: "https://picsum.photos/id/1013/1920/1080",
-            originalHeight: '520em',
+            // originalHeight: 'auto',
             originalClass: 'imageItem'
         },
         {
             original: "https://picsum.photos/id/1014/1920/1920",
             thumbnail: "https://picsum.photos/id/1014/1920/1080",
             fullscreen: "https://picsum.photos/id/1014/1920/1080",
-            originalHeight: '520em',
+            // originalHeight: 'auto',
             originalClass: 'imageItem'
         }
     ]
@@ -114,7 +115,20 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                         </div>
                     </div>
                     <div className={styles.videoContainer}>
-                            video
+                        <video 
+                            className={styles.videoItem}
+                            autoPlay
+                            loop
+                            controls
+                            controlsList="nodownload noremoteplayback noplaybackrate"
+                            disablePictureInPicture
+                            muted
+                        >
+                            <source 
+                                src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" 
+                                type="video/mp4"
+                            />
+                        </video>
                     </div>
                 </div>
             </div>
