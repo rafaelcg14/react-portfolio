@@ -78,7 +78,7 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                             details.videos.map( (videoItem, id) => {
                                 return (
                                     <div className={styles.videosContent} key={id}>
-                                        <h4>{videoItem.videoName}</h4>
+                                        <h4 className={styles.videoTitle}>{videoItem.videoName}</h4>
                                         <video 
                                             className={styles.videoItem}
                                             autoPlay

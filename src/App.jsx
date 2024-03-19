@@ -6,10 +6,12 @@ import { Experience } from './components/Experience/Experience';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
 import { ProjectModal } from './components/Modals/ProjectModal/ProjectModal';
+import { Home } from './components/pages/Home/Home';
 
 function App() {
   return (
     <div className={styles.App}>
+      <Home/>
       <Navbar/>
       <Hero/>
       <About/>
