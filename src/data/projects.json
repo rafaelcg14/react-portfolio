@@ -7,9 +7,36 @@
       "demo": "https://www.example.com",
       "source": "https://www.github.com",
       "images": [
-        "project-samples/sample-2.jpeg",
-        "project-samples/sample-3.jpeg",
-        "project-samples/sample-4.jpeg"
+        {
+            "original": "https://picsum.photos/id/1019/1920/1920",
+            "thumbnail": "https://picsum.photos/id/1019/1920/1080",
+            "fullscreen": "https://picsum.photos/id/1019/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/1011/1920/1920",
+            "thumbnail": "https://picsum.photos/id/1011/1920/1080",
+            "fullscreen": "https://picsum.photos/id/1011/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/1012/1920/1920",
+            "thumbnail": "https://picsum.photos/id/1012/1920/1080",
+            "fullscreen": "https://picsum.photos/id/1012/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/1013/1920/1920",
+            "thumbnail": "https://picsum.photos/id/1013/1920/1080",
+            "fullscreen": "https://picsum.photos/id/1013/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/1014/1920/1920",
+            "thumbnail": "https://picsum.photos/id/1014/1920/1080",
+            "fullscreen": "https://picsum.photos/id/1014/1920/1080",
+            "originalClass": "imageItem"
+        }
       ],
       "tools": [
         {
@@ -31,6 +58,16 @@
         {
           "name": "ZBrush",
           "imageSrc": "skills/zbrush-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "Video #1",
+          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+        },
+        {
+          "videoName": "Video #2",
+          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
         }
       ]
     },
@@ -42,9 +79,36 @@
       "demo": "https://www.example.com",
       "source": "https://www.github.com",
       "images": [
-        "project-samples/sample-2.jpeg",
-        "project-samples/sample-3.jpeg",
-        "project-samples/sample-4.jpeg"
+        {
+            "original": "https://picsum.photos/id/980/1920/1920",
+            "thumbnail": "https://picsum.photos/id/980/1920/1080",
+            "fullscreen": "https://picsum.photos/id/980/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/981/1920/1920",
+            "thumbnail": "https://picsum.photos/id/981/1920/1080",
+            "fullscreen": "https://picsum.photos/id/981/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/982/1920/1920",
+            "thumbnail": "https://picsum.photos/id/982/1920/1080",
+            "fullscreen": "https://picsum.photos/id/982/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/983/1920/1920",
+            "thumbnail": "https://picsum.photos/id/983/1920/1080",
+            "fullscreen": "https://picsum.photos/id/983/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/984/1920/1920",
+            "thumbnail": "https://picsum.photos/id/984/1920/1080",
+            "fullscreen": "https://picsum.photos/id/984/1920/1080",
+            "originalClass": "imageItem"
+        }
       ],
       "tools": [
         {
@@ -59,6 +123,16 @@
           "name": "Substance 3D Painter",
           "imageSrc": "skills/substance-painter-icon.svg"
         }
+      ],
+      "videos": [
+        {
+          "videoName": "Video #1",
+          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
+        },
+        {
+          "videoName": "Video #2",
+          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+        }
       ]
     },
     {
@@ -69,9 +143,36 @@
       "demo": "https://www.example.com",
       "source": "https://www.github.com",
       "images": [
-        "project-samples/sample-2.jpeg",
-        "project-samples/sample-3.jpeg",
-        "project-samples/sample-4.jpeg"
+        {
+            "original": "https://picsum.photos/id/985/1920/1920",
+            "thumbnail": "https://picsum.photos/id/985/1920/1080",
+            "fullscreen": "https://picsum.photos/id/985/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/986/1920/1920",
+            "thumbnail": "https://picsum.photos/id/986/1920/1080",
+            "fullscreen": "https://picsum.photos/id/986/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/987/1920/1920",
+            "thumbnail": "https://picsum.photos/id/987/1920/1080",
+            "fullscreen": "https://picsum.photos/id/987/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/988/1920/1920",
+            "thumbnail": "https://picsum.photos/id/988/1920/1080",
+            "fullscreen": "https://picsum.photos/id/988/1920/1080",
+            "originalClass": "imageItem"
+        },
+        {
+            "original": "https://picsum.photos/id/989/1920/1920",
+            "thumbnail": "https://picsum.photos/id/989/1920/1080",
+            "fullscreen": "https://picsum.photos/id/989/1920/1080",
+            "originalClass": "imageItem"
+        }
       ],
       "tools": [
         {
@@ -85,6 +186,16 @@
         {
           "name": "Substance 3D Painter",
           "imageSrc": "skills/substance-painter-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "Video #1",
+          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
+        },
+        {
+          "videoName": "Video #2",
+          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
         }
       ]
     }

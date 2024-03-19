@@ -3,9 +3,9 @@ import { createPortal } from 'react-dom';
 
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
-import image1 from '../../../../assets/project-samples/sample-2.jpeg';
-import image2 from '../../../../assets/project-samples/sample-3.jpeg';
-import image3 from '../../../../assets/project-samples/sample-4.jpeg';
+// import image1 from '../../../../assets/project-samples/sample-2.jpeg';
+// import image2 from '../../../../assets/project-samples/sample-3.jpeg';
+// import image3 from '../../../../assets/project-samples/sample-4.jpeg';
 
 import { getImageUrl } from '../../../utils';
 
@@ -15,47 +15,6 @@ const mountElement = document.getElementById('project-modal');
 
 export const ProjectModal = ( {isOpened, onClose, details} ) => {
     
-
-    const images = [
-        {
-            // original: image1,
-            original: "https://picsum.photos/id/1019/1920/1920",
-            thumbnail: "https://picsum.photos/id/1019/1920/1080",
-            fullscreen: "https://picsum.photos/id/1019/1920/1080",
-            // originalHeight: 'auto',
-            // thumbnail: image1,
-            originalClass: 'imageItem',
-        },
-        {
-            original: "https://picsum.photos/id/1011/1920/1920",
-            thumbnail: "https://picsum.photos/id/1011/1920/1080",
-            fullscreen: "https://picsum.photos/id/1011/1920/1080",
-            // originalHeight: 'auto',
-            originalClass: 'imageItem'
-        },
-        {
-            original: "https://picsum.photos/id/1012/1920/1920",
-            thumbnail: "https://picsum.photos/id/1012/1920/1080",
-            fullscreen: "https://picsum.photos/id/1012/1920/1080",
-            // originalHeight: 'auto',
-            originalClass: 'imageItem'
-        },
-        {
-            original: "https://picsum.photos/id/1013/1920/1920",
-            thumbnail: "https://picsum.photos/id/1013/1920/1080",
-            fullscreen: "https://picsum.photos/id/1013/1920/1080",
-            // originalHeight: 'auto',
-            originalClass: 'imageItem'
-        },
-        {
-            original: "https://picsum.photos/id/1014/1920/1920",
-            thumbnail: "https://picsum.photos/id/1014/1920/1080",
-            fullscreen: "https://picsum.photos/id/1014/1920/1080",
-            // originalHeight: 'auto',
-            originalClass: 'imageItem'
-        }
-    ]
-
     // console.log(details);
 
     if ( !isOpened ) {
@@ -78,7 +37,7 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                         {/* <img className={styles.imageItem} src={getImageUrl('project-samples/sample-4.jpeg')} alt="image" /> */}
                         <ImageGallery 
                             className={styles.imageItem2} 
-                            items={images}
+                            items={details.images}
                             // showThumbnails={false}
                             showNav={false}
                             // showBullets={true}
@@ -114,21 +73,30 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                             } ) }
                         </div>
                     </div>
-                    <div className={styles.videoContainer}>
-                        <video 
-                            className={styles.videoItem}
-                            autoPlay
-                            loop
-                            controls
-                            controlsList="nodownload noremoteplayback noplaybackrate"
-                            disablePictureInPicture
-                            muted
-                        >
-                            <source 
-                                src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" 
-                                type="video/mp4"
-                            />
-                        </video>
+                    <div className={styles.videosContainer}>
+                        {
+                            details.videos.map( (videoItem, id) => {
+                                return (
+                                    <div className={styles.videosContent} key={id}>
+                                        <h4>{videoItem.videoName}</h4>
+                                        <video 
+                                            className={styles.videoItem}
+                                            autoPlay
+                                            loop
+                                            controls
+                                            controlsList="nodownload noremoteplayback noplaybackrate"
+                                            disablePictureInPicture
+                                            muted
+                                        >
+                                            <source 
+                                                src={videoItem.videoUrl} 
+                                                type="video/mp4"
+                                            />
+                                        </video>
+                                    </div>
+                                );
+                            } )
+                        }
                     </div>
                 </div>
             </div>
