@@ -7,17 +7,19 @@ import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
 import { ProjectModal } from './components/Modals/ProjectModal/ProjectModal';
 import { Home } from './components/pages/Home/Home';
+import { Reel } from './components/pages/Reel/Reel';
 
 function App() {
   return (
     <div className={styles.App}>
       <Navbar/>
       <Home/>
-      <Hero/>
-      <About/>
-      <Experience/>
+      <Reel/>
       <Projects/>
       <ProjectModal/>
+      <Experience/>
+      <Hero/>
+      <About/>
       <Contact/>
     </div>
   )

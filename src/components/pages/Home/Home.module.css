@@ -1,25 +1,27 @@
 @import '../../../vars.css';
 
 .container {
-    background-color: gray;
+    /* background-color: gray; */
     position: relative;
     height: 100%;
     display: grid;
     place-content: center;
+    place-items: center;
 }
 
 .userDataContainer {
     /* background-color: lightseagreen; */
     display: grid;
+    place-content: center;
     place-items: center;
     position: absolute;
     padding: 5px;
     width: 450px;
     border-radius: 1.2rem;
     z-index: 10;
-    bottom: 36%;
+    /* bottom: 36%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%); */
 }
 
 .userContent {
@@ -61,12 +63,13 @@
 .additionalContainer {
     /* background-color: lightcoral; */
     display: grid;
+    place-content: center;
     grid-template-rows: auto;
     position: absolute;
-    width: 150px;
+    /* width: 150px; */
     bottom: 1.5%;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
     z-index: 10;
 }
 
@@ -90,14 +93,14 @@
     color: rgb(243, 243, 100);
     border: none;
     margin-bottom: 15px;
-    font-size: 18px;
+    font-size: 32px;
     cursor: pointer;
     transition: background .1s linear;
 }
 
 .showReel:hover {
     background-color: #aaa;
-    border-radius: 1rem;
+    border-radius: 1em;
     scale: 1.15;
 }
 
@@ -122,100 +125,22 @@
     filter: brightness(0.6);
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1200px) {
     .userDataContainer {
-        bottom: 30%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-@media screen and (max-width: 1100px) {
-    .userDataContainer {
-        width: 270px;
-        bottom: 35%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .name {
-        font-size: 40px;
-        font-weight: 700;
-        letter-spacing: 1.75px;
-        text-transform: uppercase;
-        
-    }
-    
-    .description {
-        text-transform: uppercase;
-        font-weight: lighter;
-        font-size: 18px;
-    }
-
-    .userImage {
-        height: 85px;
-        padding: 8px;
-    }
-}
-
-@media screen and (max-width: 950px) {
-    .userDataContainer {
-        width: 270px;
-        bottom: 30%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-@media screen and (max-width: 830px) {
-    .userDataContainer {
-        width: 270px;
-        bottom: 35%;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .name {
-        font-size: 36px;
-        font-weight: 700;
-        letter-spacing: 1.75px;
-        text-transform: uppercase;
-        
-    }
-    
-    .description {
-        text-transform: uppercase;
-        font-weight: lighter;
-        font-size: 12px;
-    }
-
-    .userImage {
-        height: 60px;
-        padding: 8px;
-    }
-
-    .showReel {
-        font-size: 10px;
+        scale: 0.8;
     }
 
     .additionalContainer {
-        width: 80px;
-    }
-
-}
-
-@media screen and (max-width: 700px) {
-    .userDataContainer {
-        bottom: 30%;
-        left: 50%;
-        transform: translateX(-50%);
+        scale: 0.8;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .userDataContainer {
-        bottom: 28%;
-        left: 50%;
-        transform: translateX(-50%);
+        scale: 0.6;
+    }
+
+    .additionalContainer {
+        scale: 0.6;
     }
 }

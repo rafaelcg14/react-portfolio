@@ -1,18 +1,24 @@
 @import '../../vars.css';
 
 .container {
+    /* background-color: green; */
     color: var(--color-text);
-    margin-top: 79px;
+    margin-top: 70px;
     margin-left: 10%;
     margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 .title {
+    display: flex;
+    justify-content: center;
     color: var(--color-text);
     font-size: 35px;
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    margin-bottom: 70px;
 }
 
 .content {

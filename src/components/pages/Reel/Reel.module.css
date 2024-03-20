@@ -1,12 +1,13 @@
-@import '../../vars.css';
+@import '../../../vars.css';
 
 .container {
-    /* background-color: red; */
+    /* background-color: lightseagreen; */
     margin-top: 70px;
     color: var(--color-text);
     margin-left: 10%;
     margin-right: 10%;
     padding-top: 10px;
+    padding-bottom: 60px;
 }
 
 .title {
@@ -19,7 +20,7 @@
     margin-bottom: 65px;
 }
 
-.projects {
+.videoContainer {
     margin-top: 37px;
     display: flex;
     flex-direction: row;
@@ -28,4 +29,9 @@
     justify-content: center;
     gap: 15px;
     width: 100%;
+}
+
+.videoItem {
+    width: 1135px;
+    border-radius: 1.5rem;
 }

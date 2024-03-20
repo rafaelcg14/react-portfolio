@@ -29,18 +29,20 @@ export const ProjectCard = ({project: {title, imageSrc, description, skills, dem
                 className={styles.container}
                 onClick={ () => setisModalOpened(!isModalOpened) }
             >
-                <img className={styles.image} src={getImageUrl(imageSrc)} alt={`Image of ${title}`} />
-                <h3 className={styles.title}>{title}</h3>
-                <p className={styles.description}>{description}</p>
-                <ul className={styles.skills}>
+                <div className={styles.imageContainer}>
+                    <img className={styles.image} src="https://picsum.photos/id/234/1444/1444" alt={`Image of ${title}`} />
+                    <h3 className={styles.title}>{title}</h3>
+                </div>
+                {/* <p className={styles.description}>{description}</p> */}
+                {/* <ul className={styles.skills}>
                     {
                         skills.map( (skill, id) => {
                             return <li className={styles.skill} key={id}>{skill}</li>
                         } )
                     }
-                </ul>
-                <div className={styles.links}>
-                    <a className={styles.link}>See details</a>
+                </ul> */}
+                <div className={styles.btnSeeDetails}>
+                    <a className={styles.seeDetails}>See details</a>
                 </div>
             </div>
         </div>
