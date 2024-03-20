@@ -6,10 +6,10 @@ import styles from './Home.module.css';
 
 export const Home = () => {
   return (
-    <main className={styles.container}>
+    <main className={styles.container} id="home">
         <div className={styles.userDataContainer}>
             <div className={styles.userImageContainer}>
-                <img className={styles.userImage} src={getImageUrl('hero/hero.png')} alt="My photo" />
+                <img className={styles.userImage} src={getImageUrl('hero/raccoon-logo.svg')} alt="My photo" />
             </div>
             <div className={styles.userContent}>
                 <h3 className={styles.name}>Hans Diaz</h3>
@@ -17,7 +17,18 @@ export const Home = () => {
             </div>
         </div>
         <div className={styles.imageGalleryContainer}>
-            Image Container
+            {/* Image Container */}
+            <video 
+                className={styles.videoItem}
+                autoPlay
+                loop
+                muted
+            >
+                <source 
+                    src={getImageUrl('home/portada_dimension_1920_901.mp4')}
+                    type="video/mp4"
+                />
+            </video>
         </div>
         <div className={styles.additionalContainer}>
             <button className={styles.showReel}>

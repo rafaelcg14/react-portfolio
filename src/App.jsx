@@ -11,8 +11,8 @@ import { Home } from './components/pages/Home/Home';
 function App() {
   return (
     <div className={styles.App}>
-      <Home/>
       <Navbar/>
+      <Home/>
       <Hero/>
       <About/>
       <Experience/>
