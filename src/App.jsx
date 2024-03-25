@@ -18,8 +18,8 @@ function App() {
       <Projects/>
       <ProjectModal/>
       <Experience/>
-      <Hero/>
       <About/>
+      {/* <Hero/> */}
       <Contact/>
     </div>
   )
