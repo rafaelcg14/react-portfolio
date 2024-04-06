@@ -18,6 +18,7 @@ export const Projects = ( ) => {
                 } )
             }
         </div>
+        <div className={styles.separator}></div>
     </section>
   )
 }

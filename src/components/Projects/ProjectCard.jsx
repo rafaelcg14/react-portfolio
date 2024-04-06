@@ -9,7 +9,7 @@ import styles from './ProjectCard.module.css';
 
 export const ProjectCard = ({project: {title, imageSrc, description, skills, demo, source, tools, images, videos}}) => {
     const [isModalOpened, setisModalOpened] = useState(false);
-    console.log('isModalOpened', isModalOpened);
+    // console.log('isModalOpened', isModalOpened);
 
     useEffect(() => {
         const body = document.querySelector('body');
@@ -32,17 +32,6 @@ export const ProjectCard = ({project: {title, imageSrc, description, skills, dem
                 <div className={styles.imageContainer}>
                     <img className={styles.image} src="https://picsum.photos/id/234/1444/1444" alt={`Image of ${title}`} />
                     <h3 className={styles.title}>{title}</h3>
-                </div>
-                {/* <p className={styles.description}>{description}</p> */}
-                {/* <ul className={styles.skills}>
-                    {
-                        skills.map( (skill, id) => {
-                            return <li className={styles.skill} key={id}>{skill}</li>
-                        } )
-                    }
-                </ul> */}
-                <div className={styles.btnSeeDetails}>
-                    <a className={styles.seeDetails}>See details</a>
                 </div>
             </div>
         </div>
