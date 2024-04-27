@@ -1,5 +1,7 @@
 import { useRef } from 'react';
 
+import emailjs from '@emailjs/browser';
+
 import { getImageUrl } from '../../utils';
 
 import styles from './Contact.module.css';
@@ -7,7 +9,24 @@ import styles from './Contact.module.css';
 export const Contact = () => {
   
     const form = useRef();
-    const sendEmail = () => {};
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs
+            .sendForm('service_yv7kr7u', 'template_ztf46el', form.current, {
+                publicKey: 'WnHeWLovNjpadeRcG',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+        
+        e.target.reset();
+    };
 
     return (
         <div className={styles.component} id="contact">
@@ -19,7 +38,7 @@ export const Contact = () => {
                         <ul className={styles.links}>
                             <li className={styles.link}>
                                 <img src={getImageUrl('contact/email-icon.svg')} alt="Email icon" />
-                                <a href="mailto:rafaelcg2718@gmail.com">rafaelcg2718@gmail.com</a>
+                                <a href="mailto:hansdiaz.hz@gmail.com">hansdiaz.hz@gmail.com</a>
                             </li>
                             <li className={styles.link}>
                                 <img src={getImageUrl('contact/phone-icon.svg')} alt="Phone icon" />
@@ -32,8 +51,8 @@ export const Contact = () => {
                         ref={form}
                         onSubmit={sendEmail}
                     >
-                        <input type="text" name='name' placeholder='Name or Company' required />
-                        <input type="email" name='email' placeholder='Email' required />
+                        <input type="text" name='user_name' placeholder='Name or Company' required />
+                        <input type="email" name='user_email' placeholder='Email' required />
                         <input type="text" name='subject' placeholder='Subject' required />
                         <textarea name="message" id="" rows="7" placeholder='Write Your Message Here...' required></textarea>
                         <button className={styles.btnSend} type='submit'>Send Message</button>

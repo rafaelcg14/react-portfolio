@@ -1,5 +1,6 @@
 [
     {
+        "title": "skills",
         "skills": [
             "Hard Surface",
             "Organic Modeling",
@@ -8,8 +9,11 @@
             "Handpainted Textures",
             "Realistic Textures",
             "3D Animation"
-        ],
-        "tools": [
+        ]
+    },
+    {
+        "title": "tools",
+        "skills": [
             "Maya",
             "Zbrush",
             "Substance Painter",
@@ -17,8 +21,11 @@
             "Blender",
             "After Effects",
             "Photoshop"
-        ],
-        "softSkills": [
+        ]
+    },
+    {
+        "title": "softSkills",
+        "skills": [
             "Teamworking",
             "Leadership",
             "Creative",

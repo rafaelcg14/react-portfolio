@@ -1,13 +1,9 @@
-import React from 'react'
 import { getImageUrl } from '../../utils';
-import about from '../../data/about.json';
+import skillsData from '../../data/skillsData.json';
 import styles from './About.module.css';
+import { CardAbout } from '../CardAbout/CardAbout';
 
 export const About = () => {
-  
-  const skills = about[0].skills;
-  const tools = about[0].tools;
-  const softSkills = about[0].softSkills;
 
   return (
     <div className={styles.mainContainer}>
@@ -35,48 +31,13 @@ export const About = () => {
             </div>
           </article>
           <article className={styles.expertise}>
-            <div className={styles.card}>
-              <h3 className={styles.titleCard}>Skills</h3>
-              <ul className={styles.list}>
-                {
-                  skills.map( (skill, id) => {
-                    return (
-                      <li key={id} className={styles.item}>
-                        {skill}
-                      </li>
-                    )
-                  } )
-                }
-              </ul>
-            </div>
-            <div className={styles.card}>
-              <h3 className={styles.titleCard}>Tools</h3>
-              <ul className={styles.list}>
-                {
-                  tools.map( (tool, id) => {
-                    return (
-                      <li key={id} className={styles.item}>
-                        {tool}
-                      </li>
-                    )
-                  } )
-                }
-              </ul>
-            </div>
-            <div className={styles.card}>
-              <h3 className={styles.titleCard}>Soft Skills</h3>
-              <ul className={styles.list}>
-                {
-                  softSkills.map( (softSkill, id) => {
-                    return (
-                      <li key={id} className={styles.item}>
-                        {softSkill}
-                      </li>
-                    )
-                  } )
-                }
-              </ul>
-            </div>
+            {
+              skillsData.map((data, index) => {
+                return (
+                   < CardAbout title={data.title} data={data.skills} key={index} />
+                )
+              })
+            }
           </article>
         </div>
       </section>
