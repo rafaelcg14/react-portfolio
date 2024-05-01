@@ -22,6 +22,7 @@
     }
 }
 
+
 .menuBtn {
     display: none;
 }
@@ -40,7 +41,7 @@
 
 .menuItems a {
     text-align: center;
-    font-size: 18px;
+    font-size: 1rem;
     color: var(--color-text);
     text-decoration: none;
     text-transform: uppercase;

@@ -20,7 +20,7 @@ export const Home = () => {
             {/* Image Container */}
             <video 
                 className={styles.videoItem}
-                autoPlay
+                // autoPlay
                 loop
                 muted
             >
@@ -37,7 +37,7 @@ export const Home = () => {
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <a href="https://www.instagram.com">
+                    <a href="https://www.instagram.com/hans_arte/?hl=es-la">
                         <img src={getImageUrl('contact/instagram-icon.svg')} alt="Instagram icon" />
                     </a>
                 </li>
