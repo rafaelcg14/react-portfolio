@@ -1,28 +1,36 @@
 @import '../../vars.css';
 
 .navbar {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 61px;
-    z-index: 2;
-    margin: 0 10%;
+    position: fixed;
+    display: grid;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding-block: 15px;
+    width: 100%;
+    min-height: 70px;
+    z-index: 111;
+    background-color: rgba(255, 255, 255, 0);
+
+    animation: enhance-header linear both;
+    animation-timeline: scroll(root block);
+    animation-range: 0 30%;
 }
 
-.title {
-    font-size: 30px;
-    font-weight: 600;
-    text-decoration: none;;
-    color: var(--color-text);
+@keyframes enhance-header {
+    to {
+        background-color: var(--color-bg);
+    }
 }
+
 
 .menuBtn {
     display: none;
 }
 
 .menu {
-    display: flex;
+    display: grid;
+    place-content: center;
+    margin-block: 5px;
 }
 
 .menuItems {
@@ -32,9 +40,11 @@
 }
 
 .menuItems a {
-    font-size: 25px;
+    text-align: center;
+    font-size: 1rem;
     color: var(--color-text);
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 
@@ -42,6 +52,8 @@
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+        
+        animation: none;
     }
 
     .menu {
@@ -76,5 +88,30 @@
     .menuOpen {
         display: flex;
         z-index: 1;
+    }
+    
+}
+
+@media screen and (max-width: 1620px) {
+    .navbar {
+        animation-range: 0 25%;
+    }
+}
+
+@media screen and (max-width: 1331px) {
+    .navbar {
+        animation-range: 0 18%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .navbar {
+        animation-range: 0 12%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .navbar {
+        animation-range: 0 9%;
     }
 }

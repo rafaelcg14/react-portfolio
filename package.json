@@ -10,10 +10,17 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.3.3",
+    "@fontsource-variable/red-rose": "^5.0.19",
     "@fontsource/outfit": "^5.0.12",
+    "@fontsource/quicksand": "^5.0.17",
+    "@fontsource/red-rose": "^5.0.19",
     "@fontsource/roboto": "^5.0.12",
+    "@fontsource/zen-dots": "^5.0.19",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-image-gallery": "^1.3.0",
+    "react-vertical-timeline-component": "^3.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.64",

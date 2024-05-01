@@ -1,11 +1,13 @@
 :root {
     /* Colors */
     --color-text: #fff;
-    --color-primary: #576cbc;
+    --color-primary: #4081FF;
     --color-secondary: #252525;
     --color-dark: #0b2447;
-    --color-bg: #080808;
+    --color-bg: #111;
 
     /* Fonts */
     --font-roboto: 'Roboto';
+    --font-quicksand: 'Quicksand';
+    --font-zendots: 'Zen Dots';
 }

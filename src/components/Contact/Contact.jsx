@@ -1,39 +1,64 @@
-import React from 'react'
+import { useRef } from 'react';
+
+import emailjs from '@emailjs/browser';
 
 import { getImageUrl } from '../../utils';
 
 import styles from './Contact.module.css';
 
 export const Contact = () => {
-  return (
-    <footer id="contact" className={styles.container}>
-        <div className={styles.text}>
-            <h2>Contact</h2>
-            <p>Feel free to reach out!</p>
+  
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs
+            .sendForm('service_yv7kr7u', 'template_ztf46el', form.current, {
+                publicKey: 'WnHeWLovNjpadeRcG',
+            })
+            .then(
+                () => {
+                    console.log('SUCCESS!');
+                },
+                (error) => {
+                    console.log('FAILED...', error.text);
+                },
+            );
+        
+        e.target.reset();
+    };
+
+    return (
+        <div className={styles.component} id="contact">
+            <section id="contact" className={styles.container}>
+                <h2 className={styles.title}>Contact</h2>
+                <div className={styles.content}>
+                    <div className={styles.description}>
+                        <p>Please, use this contact form or you can contact me directly with ...</p>
+                        <ul className={styles.links}>
+                            <li className={styles.link}>
+                                <img src={getImageUrl('contact/email-icon.svg')} alt="Email icon" />
+                                <a href="mailto:hansdiaz.hz@gmail.com">hansdiaz.hz@gmail.com</a>
+                            </li>
+                            <li className={styles.link}>
+                                <img src={getImageUrl('contact/phone-icon.svg')} alt="Phone icon" />
+                                <a>(+51) 111 111 111</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <form 
+                        className={styles.formContact}
+                        ref={form}
+                        onSubmit={sendEmail}
+                    >
+                        <input type="text" name='user_name' placeholder='Name or Company' required />
+                        <input type="email" name='user_email' placeholder='Email' required />
+                        <input type="text" name='subject' placeholder='Subject' required />
+                        <textarea name="message" id="" rows="7" placeholder='Write Your Message Here...' required></textarea>
+                        <button className={styles.btnSend} type='submit'>Send Message</button>
+                    </form>
+                </div>
+            </section>
         </div>
-        <ul className={styles.links}>
-            <li className={styles.link}>
-                <img src={getImageUrl('contact/phone-icon.svg')} alt="Phone icon" />
-                <img src={getImageUrl('contact/peru-flag.png')} alt="Peru flag" />
-                <a>(+51) 990 427 877</a>
-            </li>
-            <li className={styles.link}>
-                <img src={getImageUrl('contact/email-icon.svg')} alt="Email icon" />
-                <a href="mailto:rafaelcg2718@gmail.com">rafaelcg2718@gmail.com</a>
-            </li>
-            <li className={styles.link}>
-                <img src={getImageUrl('contact/instagram-icon.svg')} alt="Instagram icon" />
-                <a href="https://www.instagram.com/hans_arte">hans_arte</a>
-            </li>
-            <li className={styles.link}>
-                <img src={getImageUrl('contact/linkedin-icon.svg')} alt="LinkedIn icon" />
-                <a href="https://www.linkedin.com/in/rafael-castellanos-guzman">linkedin.com/in/rafael-castellanos-guzman</a>
-            </li>
-            <li className={styles.link}>
-                <img src={getImageUrl('contact/github-icon.svg')} alt="Github icon" />
-                <a href="https://github.com/StarLordCG">github.com/StarLordCG</a>
-            </li>
-        </ul>
-    </footer>
-  )
+    )
 }
