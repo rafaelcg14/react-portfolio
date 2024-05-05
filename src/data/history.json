@@ -4,8 +4,8 @@
       "location": "Lima, Peru",
       "organization": "Google",
       "date": "Sept, 2022",
-      "description": ["Worked on Google Maps", "Reduced load times by 50%"],
-      "companyImg": "history/google.png",
+      "description": ["Worked on Google Maps dasdsadjsaiod asdjiodsaijo asddjiaodas", "Reduced load times by 50%"],
+      "imageSrc": "history/google.png",
       "icon": "work"
     },
     {
@@ -14,13 +14,13 @@
       "organization": "Mirosoft",
       "date": "Aug, 2021",
       "description": ["Worked on Windows 11", "Designed the control panel"],
-      "companyImg": "history/google.png",
+      "imageSrc": "history/google.png",
       "icon": "work"
     },
     {
-      "role": "SWE Intern",
+      "role": "2D & 3D Digital Animation and VFX",
       "location": "Lima, Peru",
-      "organization": "Netflix",
+      "organization": "Toulouse Lautrec",
       "date": "Apr, 2020",
       "description": [
         "companyImg on component library",

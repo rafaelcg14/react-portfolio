@@ -1,41 +1,42 @@
 [
     {
-      "title": "Project dasdas dasdsasad asddasdasdas",
+      "title": "Sample 1 Title",
+      "typeOfModel": "2D",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
+      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling", "Another one", "Siuuuuuuuuuuu", "Estoy cansado"],
       "demo": "https://www.example.com",
       "source": "https://www.github.com",
       "images": [
         {
-            "original": "https://picsum.photos/id/1019/1920/1920",
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/535/375/large/hans-diaz-render-camara-ref-model.jpg?1714805884",
             "thumbnail": "https://picsum.photos/id/1019/1920/1080",
-            "fullscreen": "https://picsum.photos/id/1019/1920/1080",
-            "originalClass": "imageItem"
+            "fullscreen": "https://cdnb.artstation.com/p/assets/images/images/075/535/375/large/hans-diaz-render-camara-ref-model.jpg?1714805884",
+            "description": "title of image"
         },
         {
-            "original": "https://picsum.photos/id/1011/1920/1920",
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/535/268/large/hans-diaz-render-camara-ref-2.jpg?1714805531",
             "thumbnail": "https://picsum.photos/id/1011/1920/1080",
-            "fullscreen": "https://picsum.photos/id/1011/1920/1080",
-            "originalClass": "imageItem"
+            "fullscreen": "https://cdna.artstation.com/p/assets/images/images/075/535/268/large/hans-diaz-render-camara-ref-2.jpg?1714805531",
+            "description": "title of image 2"
         },
         {
             "original": "https://picsum.photos/id/1012/1920/1920",
             "thumbnail": "https://picsum.photos/id/1012/1920/1080",
             "fullscreen": "https://picsum.photos/id/1012/1920/1080",
-            "originalClass": "imageItem"
+            "description": "title of image 3"
         },
         {
             "original": "https://picsum.photos/id/1013/1920/1920",
             "thumbnail": "https://picsum.photos/id/1013/1920/1080",
             "fullscreen": "https://picsum.photos/id/1013/1920/1080",
-            "originalClass": "imageItem"
+            "description": "title of image 4"
         },
         {
             "original": "https://picsum.photos/id/1014/1920/1920",
             "thumbnail": "https://picsum.photos/id/1014/1920/1080",
             "fullscreen": "https://picsum.photos/id/1014/1920/1080",
-            "originalClass": "imageItem"
+            "description": "title of image 5"
         }
       ],
       "tools": [
@@ -73,6 +74,7 @@
     },
     {
       "title": "Project Adasdsdadasdas",
+      "typeOfModel": "2D",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
@@ -137,6 +139,7 @@
     },
     {
       "title": "Project C",
+      "typeOfModel": "3D",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
@@ -201,6 +204,7 @@
     },
     {
       "title": "Project C",
+      "typeOfModel": "3D",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
@@ -265,6 +269,7 @@
     },
     {
       "title": "Project C",
+      "typeOfModel": "3D",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
@@ -329,6 +334,7 @@
     },
     {
       "title": "Project C",
+      "typeOfModel": "3D",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
@@ -393,326 +399,7 @@
     },
     {
       "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "images": [
-        {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
-        }
-      ],
-      "tools": [
-        {
-          "name": "Maya",
-          "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
-        }
-      ],
-      "videos": [
-        {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "images": [
-        {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
-        }
-      ],
-      "tools": [
-        {
-          "name": "Maya",
-          "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
-        }
-      ],
-      "videos": [
-        {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "images": [
-        {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
-        }
-      ],
-      "tools": [
-        {
-          "name": "Maya",
-          "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
-        }
-      ],
-      "videos": [
-        {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "images": [
-        {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
-        }
-      ],
-      "tools": [
-        {
-          "name": "Maya",
-          "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
-        }
-      ],
-      "videos": [
-        {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "images": [
-        {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
-        }
-      ],
-      "tools": [
-        {
-          "name": "Maya",
-          "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
-        }
-      ],
-      "videos": [
-        {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Project C",
+      "typeOfModel": "3D",
       "imageSrc": "projects/project.png",
       "description": "This is a project made to learn the latest languages by building an app.",
       "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],

@@ -40,6 +40,7 @@ export const About = () => {
             }
           </article>
         </div>
+        <div className={styles.separator}></div>  
       </section>
     </div>
   )

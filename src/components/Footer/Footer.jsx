@@ -8,8 +8,8 @@ export const Footer = () => {
   return (
     <footer className={styles.container}>
         <div className={styles.text}>
-            <span className={styles.description}>&copy; 2024 by Hans Diaz</span>
-            <span className={styles.description}>Made by Rafael Castellanos</span>
+            <span className={styles.description}>&copy; 2024. Hans Diaz</span>
+            <span className={styles.description}>Collab with <a href="https://www.google.com">Rafael Castellanos</a>.</span>
         </div>
     </footer>
   )
