@@ -16,6 +16,7 @@ export const Home = () => {
                 <p className={styles.subtitle}>3D Generalist</p>
             </div>
         </div>
+        
         <div className={styles.imageGalleryContainer}>
             {/* Image Container */}
             <video 
@@ -30,11 +31,12 @@ export const Home = () => {
                 />
             </video>
         </div>
+
         <div className={styles.additionalContainer}>
-            <div className={styles.reelContainer}>
+            {/* <div className={styles.reelContainer}>
                 <img className={styles.playIcon} src={getImageUrl('home/play-icon.svg')} alt="play" />
                 <a className={styles.showReel} href="#showreel">Showreel</a>
-            </div>
+            </div> */}
             <ul className={styles.links}>
                 <li className={styles.link}>
                     <a href="https://www.instagram.com/hans_arte/?hl=es-la">

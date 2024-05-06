@@ -3,9 +3,6 @@ import { createPortal } from 'react-dom';
 
 import ImageGallery from 'react-image-gallery';
 import "react-image-gallery/styles/css/image-gallery.css";
-// import image1 from '../../../../assets/project-samples/sample-2.jpeg';
-// import image2 from '../../../../assets/project-samples/sample-3.jpeg';
-// import image3 from '../../../../assets/project-samples/sample-4.jpeg';
 
 import { getImageUrl } from '../../../utils';
 

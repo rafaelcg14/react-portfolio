@@ -13,7 +13,7 @@
 
     animation: enhance-header linear both;
     animation-timeline: scroll(root block);
-    animation-range: 0 30%;
+    animation-range: 0 13%;
 }
 
 @keyframes enhance-header {
@@ -92,26 +92,8 @@
     
 }
 
-@media screen and (max-width: 1620px) {
+@media screen and (max-width: 1003px) {
     .navbar {
-        animation-range: 0 25%;
-    }
-}
-
-@media screen and (max-width: 1331px) {
-    .navbar {
-        animation-range: 0 18%;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .navbar {
-        animation-range: 0 12%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .navbar {
-        animation-range: 0 9%;
+        animation-range: 0 10%;
     }
 }
