@@ -24,36 +24,11 @@
     letter-spacing: 2px;
 }
 
-.links {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    list-style: none;
-    gap: 26px;
-}
-
-.link {
-    display: flex;
-    align-items: center;
-    gap: 25px;
-}
-
-.link a {
-    color: var(--color-text);
+.description a {
     text-decoration: none;
-    font-weight: 400;
-    letter-spacing: 1.5px;
+    color: var(--color-primary);
 }
 
-.link img {
-    display: flex;
-    width: 1.75rem;
-}
-
-.link img:nth-of-type(2) {
-    display: none;
-    width: 20px;
-}
 
 @media screen and (max-width: 830px) {
     .container {

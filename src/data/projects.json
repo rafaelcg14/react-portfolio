@@ -1,177 +1,152 @@
 [
     {
-      "title": "Project dasdas dasdsasad asddasdasdas",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
+      "title": "Immersive: Aldo",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/697/561/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715199024",
+      "description": "Este es “Aldo”, el personaje principal del corto animado “Immersive”, en el que tuve el cargo de director general durante el año que duró el proyecto. El concept art del personaje fue realizado por Diego Delgado, integrante de mi equipo. A partir del concept, seguí el proceso individualmente, empecé por Zbrush con el blocking, agregué subdivisiones y esculpí hasta conseguir un modelo detallado de alto poligonaje dentro de Zbrush. Procedí a aplicar Decimate para simplificar la cantidad de polígonos y obtener un modelo optimizado para importar a Maya. Aquí realicé la retopología en conjunto con Zahid Silva, para obtener el modelo lowpoly del personaje. Lo siguiente fue realizar el UV Mapping, el cual también hice en Maya y que usé para texturizar en Substance Painter, donde realicé baking para proyectar el detalle del Highpoly al Lowpoly, obteniendo una gran cantidad de detalle en un modelo de bajo poligonaje. Mientras yo texturizaba, Nicole Menor realizaba el rig paralelamente. Una vez que ambos procesos terminaron, coloqué las texturas en el modelo riggeado, posé el personaje, y realicé la iluminación y el render de las imágenes que pueden ver en este proyecto.",
+      "urlProject": "https://www.artstation.com/artwork/n0gwWe",
       "images": [
         {
-            "original": "https://picsum.photos/id/1019/1920/1920",
-            "thumbnail": "https://picsum.photos/id/1019/1920/1080",
-            "fullscreen": "https://picsum.photos/id/1019/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/693/883/large/hans-diaz-render-1-as.jpg?1715192250",
+            "description": "Dynamic pose R"
         },
         {
-            "original": "https://picsum.photos/id/1011/1920/1920",
-            "thumbnail": "https://picsum.photos/id/1011/1920/1080",
-            "fullscreen": "https://picsum.photos/id/1011/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/693/893/large/hans-diaz-render-as-2.jpg?1715192261",
+            "description": "Dynamic pose L"
         },
         {
-            "original": "https://picsum.photos/id/1012/1920/1920",
-            "thumbnail": "https://picsum.photos/id/1012/1920/1080",
-            "fullscreen": "https://picsum.photos/id/1012/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/693/895/large/hans-diaz-render-as-3.jpg?1715192270",
+            "description": "Resting pose"
         },
         {
-            "original": "https://picsum.photos/id/1013/1920/1920",
-            "thumbnail": "https://picsum.photos/id/1013/1920/1080",
-            "fullscreen": "https://picsum.photos/id/1013/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/693/905/large/hans-diaz-render-as-4.jpg?1715192278",
+            "description": "Detail plane L"
         },
         {
-            "original": "https://picsum.photos/id/1014/1920/1920",
-            "thumbnail": "https://picsum.photos/id/1014/1920/1080",
-            "fullscreen": "https://picsum.photos/id/1014/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/693/914/large/hans-diaz-render-as-5.jpg?1715192288",
+            "description": "Detail plane R"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/693/922/large/hans-diaz-render-as-6.jpg?1715192299",
+            "description": "Front view - Resting pose variation"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/693/928/large/hans-diaz-render-as-7.jpg?1715192307",
+            "description": "Expressions"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/693/930/large/hans-diaz-image.jpg?1715192314",
+            "description": "Viewport - Autodesk Maya"
         }
       ],
       "tools": [
         {
           "name": "Maya",
           "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
-        },
-        {
-          "name": "Maya",
-          "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
         }
       ],
       "videos": [
         {
-          "videoName": "Video #1",
-          "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "videoName": "Model turn-around",
+          "videoUrl": "https://cdn.artstation.com/p/video_sources/001/959/172/tornamesa-aldo.mp4"
         }
       ]
     },
     {
-      "title": "Project Adasdsdadasdas",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
+      "title": "Assassin's Axe",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/075/683/242/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715172910",
+      "description": "Esta hacha, a la que titulé ‘Assassin’s Axe’, es un proyecto personal que realicé desde el Concept Art hasta el render final del modelo 3D. Para el concept art, me inspiré principalmente en el arte de Joe Madureira. Además, usé como referencia diversas hachas que tomé de Pinterest. Con todo esto, empecé a bocetar y pintar modificaciones sobre la referencia de Joe, logrando el concept art que pueden ver en una de las imágenes subidas en este proyecto. Luego, procedí a ‘materializar’ el concept en un modelo Lowpoly en Autodesk Maya. Aproveché también para realizar el UV Mapping. Inmediatamente después, llevé el modelo Lowpoly a Zbrush, donde esculpí todo el detalle para obtener el modelo highpoly. Luego, usé este modelo para hacer baking y texturizar en Substance Painter. Una vez texturizado, importé los Mapas de Textura al Modelo en Maya, agregué luces y realicé el render.",
+      "urlProject": "https://www.artstation.com/artwork/NydlRb",
       "images": [
         {
-            "original": "https://picsum.photos/id/980/1920/1920",
-            "thumbnail": "https://picsum.photos/id/980/1920/1080",
-            "fullscreen": "https://picsum.photos/id/980/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/637/large/hans-diaz-render-as-4.jpg?1715171976",
+            "description": "3/4 View"
         },
         {
-            "original": "https://picsum.photos/id/981/1920/1920",
-            "thumbnail": "https://picsum.photos/id/981/1920/1080",
-            "fullscreen": "https://picsum.photos/id/981/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/599/large/hans-diaz-render-as-2.jpg?1715171934",
+            "description": "Detail plane"
         },
         {
-            "original": "https://picsum.photos/id/982/1920/1920",
-            "thumbnail": "https://picsum.photos/id/982/1920/1080",
-            "fullscreen": "https://picsum.photos/id/982/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/682/616/large/hans-diaz-render-as-3.jpg?1715171961",
+            "description": "Front view and Left view"
         },
         {
-            "original": "https://picsum.photos/id/983/1920/1920",
-            "thumbnail": "https://picsum.photos/id/983/1920/1080",
-            "fullscreen": "https://picsum.photos/id/983/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/682/644/large/hans-diaz-render-as-5.jpg?1715171994",
+            "description": "Final Render"
         },
         {
-            "original": "https://picsum.photos/id/984/1920/1920",
-            "thumbnail": "https://picsum.photos/id/984/1920/1080",
-            "fullscreen": "https://picsum.photos/id/984/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/661/large/hans-diaz-wireframe.jpg?1715172008",
+            "description": "Wireframe"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/669/large/hans-diaz-zbrush.jpg?1715172027",
+            "description": "Digital Sculpting in Zbrush"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/673/large/hans-diaz-viewport.jpg?1715172033",
+            "description": "Viewport - Autodesk Maya"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/759/large/hans-diaz-refe.jpg?1715172169",
+            "description": "Moodboard and Concept Art"
         }
       ],
       "tools": [
         {
           "name": "Maya",
           "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
         }
       ],
       "videos": [
         {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "videoName": "",
+          "videoUrl": ""
         }
       ]
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
+      "title": "Indian Textile",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/075/672/000/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715149965",
+      "description": "Este es un escenario 3D con todos los procesos completos. Inicié con un modelo Lowpoly, luego realicé el modelo high poly agregando detalles de escultura digital en Zbrush, luego llevé el modelo highpoly a Maya donde hice la retopología y el mapeado UV, luego llevé el modelo Lowpoly y highpoly a Substance Painter donde hice el bakeo y el texturizado. Una vez listo el texturizado, probé las texturas en Marmoset Toolbag y rendericé los pases de render con una iluminación de estudio (Esto solo para poder mostrar los pases en el portafolio). Luego obtuve la información de la cámara y perspectiva con Fspy y a través de un Plugin importé los detalles de la cámara a Maya, donde obtuve la misma cámara que usé en Marmoset, entonces hice una iluminación más elaborada en Maya, una iluminación que transmita una temática en el modelo. Y cuando terminé la iluminación en Maya, rendericé con Arnold, para obtener como resultado final las imágenes y video que pueden ver de este proyecto.",
+      "urlProject": "https://www.artstation.com/artwork/obL4eL",
       "images": [
         {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/736/large/hans-diaz-render-as-1.jpg?1715146264",
+            "description": "Lighting and final render"
         },
         {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/830/large/hans-diaz-render-as-7.jpg?1715146461",
+            "description": "Detail plane L"
         },
         {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/833/large/hans-diaz-render-as-8.jpg?1715146474",
+            "description": "Detail plane R"
         },
         {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/740/large/hans-diaz-render-as-4.jpg?1715146277",
+            "description": "Low Poly (Modeling) - Autodesk Maya"
         },
         {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/745/large/hans-diaz-render-as-3.jpg?1715146287",
+            "description": "High Poly (Digital Sculpture)- Zbrush"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/749/large/hans-diaz-render-as-2.jpg?1715146298",
+            "description": "UV Mapping - Autodesk Maya"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/752/large/hans-diaz-render-as-5.jpg?1715146306",
+            "description": "Baking and Texturing - Substance Painter"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/671/001/large/hans-diaz-render-as-9.jpg?1715146931",
+            "description": "Front View"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/671/240/large/hans-diaz-viewport.jpg?1715147832",
+            "description": "Viewport - Autodesk Maya"
         }
       ],
       "tools": [
@@ -186,56 +161,65 @@
         {
           "name": "Substance 3D Painter",
           "imageSrc": "skills/substance-painter-icon.svg"
+        },
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        },
+        {
+          "name": "ZBrush",
+          "imageSrc": "skills/zbrush-icon.svg"
         }
       ],
       "videos": [
         {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "videoName": "Turn-around video",
+          "videoUrl": "https://cdn.artstation.com/p/video_sources/001/958/104/escenario-arabe-video.mp4"
         }
       ]
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
+      "title": "Music Room",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/075/670/276/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715144408",
+      "description": "Este escenario está compuesto por muchos de los props que modelé para el cortometraje animado “Carrusel: Un Vals Así”, cuando trabajaba como artista 3D contratado en Star Toons Animation. Utilicé estos props para armar una composición con todos estos elementos ligados a la música y darle un ambiente acogedor, cálido y minimalista a través de la iluminación y el orden en la composición, logrando así un escenario Midpoly con una iluminación intencional.",
+      "urlProject": "https://www.artstation.com/artwork/9EJAEa",
       "images": [
         {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/233/large/hans-diaz-render-as-1.jpg?1715144289",
+            "description": "Front view"
         },
         {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/234/large/hans-diaz-render-as-2.jpg?1715144297",
+            "description": "3/4 view L"
         },
         {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/235/large/hans-diaz-render-as-3.jpg?1715144305",
+            "description": "3/4 view R"
         },
         {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/241/large/hans-diaz-render-as-4.jpg?1715144313",
+            "description": "Detail plan"
         },
         {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/244/large/hans-diaz-viewport.jpg?1715144321",
+            "description": "Viewport - Autodesk Maya"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/749/large/hans-diaz-render-as-2.jpg?1715146298",
+            "description": "UV Mapping - Autodesk Maya"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/752/large/hans-diaz-render-as-5.jpg?1715146306",
+            "description": "Baking and Texturing - Substance Painter"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/671/001/large/hans-diaz-render-as-9.jpg?1715146931",
+            "description": "Front View"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/671/240/large/hans-diaz-viewport.jpg?1715147832",
+            "description": "Viewport - Autodesk Maya"
         }
       ],
       "tools": [
@@ -250,120 +234,86 @@
         {
           "name": "Substance 3D Painter",
           "imageSrc": "skills/substance-painter-icon.svg"
+        },
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        },
+        {
+          "name": "ZBrush",
+          "imageSrc": "skills/zbrush-icon.svg"
         }
       ],
       "videos": [
         {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "videoName": "",
+          "videoUrl": ""
         }
       ]
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
+      "title": "Carrusel - Un Vals Así: Barranco",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/700/477/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715205528",
+      "description": "Estos escenarios 3D son de diferentes locaciones del distrito de Barranco (Lima - Perú), que realicé mientras trabajaba como artista 3D contratado en Star Toons Animation. Aquí solo muestro 2 de los 5 escenarios que realicé para el cortometraje animado, entre estos: Bajada de Baños de Barranco, Mirador de Barranco, El Puente de los Suspiros, Jirón Domeyer en Barranco y diversos props como complemento para el escenario ‘Casa de Jorge Madueño’. En una de las imágenes de este proyecto, muestro un collage con 4 fotos texturizadas, que muestra el resultado final del escenario 3D, tras haber sido texturizado, iluminado y postproducido por mi amigo y colega, Davor Gallegos ‘Franzua’. Se puede apreciar en ese collage cuál es el estilo visual del cortometraje, tratando de mezclar la técnica 3D con un acabado 2D en Blender.",
+      "urlProject": "https://www.artstation.com/artwork/5vynEO",
       "images": [
         {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/699/045/large/hans-diaz-render-bajada-de-banos1.jpg?1715202365",
+            "description": "Bajada de Baños de Barranco (Lima -Perú)"
         },
         {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/699/047/large/hans-diaz-render-bajada-de-banos2.jpg?1715202371",
+            "description": "Bajada de Baños de Barranco 2 (Lima -Perú)"
         },
         {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/699/051/large/hans-diaz-render-bajada-de-banos3.jpg?1715202379",
+            "description": "Jirón Domeyer en Barranco (Lima - Perú)"
         },
         {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/699/724/large/hans-diaz-un-val-asi.jpg?1715203803",
+            "description": "Estilo visual del cortometraje 'Carrusel: Un Vals Así'"
         }
       ],
       "tools": [
         {
           "name": "Maya",
           "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
         }
       ],
       "videos": [
         {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "videoName": "",
+          "videoUrl": ""
         }
       ]
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
+      "title": "Cozy Cottage",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/627/879/small_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715049816",
+      "description": "'Cozy Cottage' es un escenario 3D modelado en Autodesk Maya; le realicé una iluminación de estudio para evidenciar mejor la técnica del modelado Lowpoly estilizado. Lo rendericé en Arnold y finalicé con una pequeña postproducción que incluye balance de tonos y ajuste de color en Photoshop. Este modelo fue inspirado en John Teodoro.",
+      "urlProject": "https://www.artstation.com/artwork/XgKKaY",
       "images": [
         {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/627/753/large/hans-diaz-render-as-3.jpg?1715049296",
+            "description": "3/4 view"
         },
         {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/627/751/large/hans-diaz-render-as-2.jpg?1715049288",
+            "description": "Front view"
         },
         {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/627/757/large/hans-diaz-render-as-4.jpg?1715049305",
+            "description": "Right view"
         },
         {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/627/758/large/hans-diaz-render-as-1.jpg?1715049314",
+            "description": "Alternative 3/4 view"
         },
         {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/627/760/large/hans-diaz-viewport.jpg?1715049321",
+            "description": "Viewport - Autodesk Maya"
         }
       ],
       "tools": [
@@ -378,56 +328,45 @@
         {
           "name": "Substance 3D Painter",
           "imageSrc": "skills/substance-painter-icon.svg"
+        },
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        },
+        {
+          "name": "ZBrush",
+          "imageSrc": "skills/zbrush-icon.svg"
         }
       ],
       "videos": [
         {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "videoName": "",
+          "videoUrl": ""
         }
       ]
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
+      "title": "Pirate House",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/623/509/small_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715035079",
+      "description": "'Pirate House' es un escenario 3D modelado en Autodesk Maya; le realicé una iluminación de estudio para evidenciar mejor la técnica del modelado Lowpoly estilizado. Lo rendericé en Arnold y finalicé con una pequeña postproducción que incluye balance de tonos y ajuste de color en Photoshop. Este modelo fue realizado como una comision freelance. Modelo inspirado en el concepto de Bojan Tomic. ",
+      "urlProject": "https://www.artstation.com/artwork/yDwzYx",
       "images": [
         {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/623/268/large/hans-diaz-render-as-2.jpg?1715034552",
+            "description": "3/4 view"
         },
         {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/623/276/large/hans-diaz-render-as-3.jpg?1715034573",
+            "description": "Front view"
         },
         {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/623/278/large/hans-diaz-render-as-1.jpg?1715034582",
+            "description": "Alternative 3/4 view"
         },
         {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/623/285/large/hans-diaz-viewport.jpg?1715034609",
+            "description": "Viewport - Autodesk Maya"
         }
       ],
       "tools": [
@@ -446,52 +385,37 @@
       ],
       "videos": [
         {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "videoName": "",
+          "videoUrl": ""
         }
       ]
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
+      "title": "Food Truck: KING FOOD",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/622/005/small_square/hans-diaz-hans-diaz-poratada-as.jpg?1715031183",
+      "description": "'Food Truck: King Food' es un escenario 3D modelado en Autodesk Maya; le realicé una iluminación de estudio para evidenciar mejor la técnica del modelado Lowpoly estilizado. Lo rendericé en Arnold y finalicé con una pequeña postproducción que incluye balance de tonos y ajuste de color en Photoshop. Modelo inspirado en el concepto Egor Velavsky.",
+      "urlProject": "https://www.artstation.com/artwork/49JZOk",
       "images": [
         {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/621/634/large/hans-diaz-carro-as-1.jpg?1715030444",
+            "description": "3/4 view"
         },
         {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/621/637/large/hans-diaz-carro-as-3.jpg?1715030460",
+            "description": "Front view"
         },
         {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/621/640/large/hans-diaz-carro.jpg?1715030485",
+            "description": "Flat model"
         },
         {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/621/644/large/hans-diaz-carro-as-2.jpg?1715030497",
+            "description": "Alternative 3/4 view"
         },
         {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/621/753/large/hans-diaz-viewport-model-2.jpg?1715030724",
+            "description": "Viewport - Autodesk Maya"
         }
       ],
       "tools": [
@@ -510,268 +434,45 @@
       ],
       "videos": [
         {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "videoName": "",
+          "videoUrl": ""
         }
       ]
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
+      "title": "Abandoned Hotel",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/620/497/small_square/hans-diaz-hans-diaz-portada-as.jpg?1715028104",
+      "description": "'Abandoned Hotel' es un escenario 3D modelado en Autodesk Maya; le realicé una iluminación de estudio para evidenciar mejor la técnica del modelado Lowpoly estilizado. Lo rendericé en Arnold y finalicé con una pequeña postproducción que incluye balance de tonos y ajuste de color en Photoshop. Modelo inspirado en el concepto de Lera Kiryakova.",
+      "urlProject": "https://www.artstation.com/artwork/39JOPD",
       "images": [
         {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/619/374/large/hans-diaz-render-as3.jpg?1715025861",
+            "description": "3/4 view"
         },
         {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/619/384/large/hans-diaz-render-as1.jpg?1715025885",
+            "description": "Front view"
         },
         {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/619/392/large/hans-diaz-render-as2.jpg?1715025901",
+            "description": "Alternative 3/4 view"
         },
         {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/619/400/large/hans-diaz-viewport-model-1.jpg?1715025918",
+            "description": "Viewport - Autodesk Maya"
         }
       ],
       "tools": [
         {
           "name": "Maya",
           "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
         }
       ],
       "videos": [
         {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "images": [
-        {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
-        }
-      ],
-      "tools": [
-        {
-          "name": "Maya",
-          "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
-        }
-      ],
-      "videos": [
-        {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "images": [
-        {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
-        }
-      ],
-      "tools": [
-        {
-          "name": "Maya",
-          "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
-        }
-      ],
-      "videos": [
-        {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
-        }
-      ]
-    },
-    {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["Organic Modeling", "Hard Surface Modeling", "bla bla bla Modeling"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com",
-      "images": [
-        {
-            "original": "https://picsum.photos/id/985/1920/1920",
-            "thumbnail": "https://picsum.photos/id/985/1920/1080",
-            "fullscreen": "https://picsum.photos/id/985/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/986/1920/1920",
-            "thumbnail": "https://picsum.photos/id/986/1920/1080",
-            "fullscreen": "https://picsum.photos/id/986/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/987/1920/1920",
-            "thumbnail": "https://picsum.photos/id/987/1920/1080",
-            "fullscreen": "https://picsum.photos/id/987/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/988/1920/1920",
-            "thumbnail": "https://picsum.photos/id/988/1920/1080",
-            "fullscreen": "https://picsum.photos/id/988/1920/1080",
-            "originalClass": "imageItem"
-        },
-        {
-            "original": "https://picsum.photos/id/989/1920/1920",
-            "thumbnail": "https://picsum.photos/id/989/1920/1080",
-            "fullscreen": "https://picsum.photos/id/989/1920/1080",
-            "originalClass": "imageItem"
-        }
-      ],
-      "tools": [
-        {
-          "name": "Maya",
-          "imageSrc": "skills/maya-icon.svg"
-        },
-        {
-          "name": "ZBrush",
-          "imageSrc": "skills/zbrush-icon.svg"
-        },
-        {
-          "name": "Substance 3D Painter",
-          "imageSrc": "skills/substance-painter-icon.svg"
-        }
-      ],
-      "videos": [
-        {
-          "videoName": "Video #1",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4"
-        },
-        {
-          "videoName": "Video #2",
-          "videoUrl": "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+          "videoName": "",
+          "videoUrl": ""
         }
       ]
     }

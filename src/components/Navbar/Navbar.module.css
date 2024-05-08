@@ -3,8 +3,6 @@
 .navbar {
     position: fixed;
     display: grid;
-    /* align-items: center; */
-    /* justify-content: space-between; */
     padding-block: 15px;
     width: 100%;
     min-height: 70px;
@@ -13,7 +11,7 @@
 
     animation: enhance-header linear both;
     animation-timeline: scroll(root block);
-    animation-range: 0 30%;
+    animation-range: 0 13%;
 }
 
 @keyframes enhance-header {
@@ -30,21 +28,34 @@
 .menu {
     display: grid;
     place-content: center;
-    margin-block: 5px;
+    align-content: center;
 }
 
 .menuItems {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     gap: 47px;
     list-style: none;
+    padding-inline: 2rem;
+}
+
+.menuItems li:first-child {
+    margin-right: auto;
 }
 
 .menuItems a {
     text-align: center;
     font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
     color: var(--color-text);
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.menuItems a:hover {
+    background-color: #252525;
 }
 
 
@@ -58,7 +69,8 @@
 
     .menu {
         position: absolute;
-        right: 0;
+        right: -5%;
+        top: 15%;
         margin-right: 10%;
         flex-direction: column;
         align-items: flex-end;
@@ -85,33 +97,19 @@
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
     }
 
+    .menuItems li:first-child {
+        margin-right: 0;
+    }
+
     .menuOpen {
         display: flex;
         z-index: 1;
     }
-    
+
 }
 
-@media screen and (max-width: 1620px) {
+@media screen and (max-width: 1003px) {
     .navbar {
-        animation-range: 0 25%;
-    }
-}
-
-@media screen and (max-width: 1331px) {
-    .navbar {
-        animation-range: 0 18%;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .navbar {
-        animation-range: 0 12%;
-    }
-}
-
-@media screen and (max-width: 900px) {
-    .navbar {
-        animation-range: 0 9%;
+        animation-range: 0 10%;
     }
 }

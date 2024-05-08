@@ -3,9 +3,12 @@
     margin: 0;
     padding: 0;
     font-family: 'Red Rose Variable', Arial, Helvetica, sans-serif;
+    
+    scrollbar-color: var(--color-primary) #151515;
+    scrollbar-width: thin;
 }
 
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 130px;
+    scroll-padding-top: 69px;
 }

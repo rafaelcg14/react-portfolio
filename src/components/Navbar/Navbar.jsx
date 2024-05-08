@@ -23,9 +23,9 @@ export const Navbar = () => {
                 <li>
                     <a href="#home">Home</a>
                 </li>
-                <li>
+                {/* <li>
                     <a href="#showreel">ShoowReel</a>
-                </li>
+                </li> */}
                 <li>
                     <a href="#projects">Projects</a>
                 </li>

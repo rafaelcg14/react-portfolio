@@ -4,32 +4,36 @@
         "skills": [
             "Hard Surface",
             "Organic Modeling",
+            "Digital Sculpture",
+            "Retopology",
+            "UV Mapping",
+            "Texturing",
             "Character Modeling",
-            "Sculpting",
-            "Handpainted Textures",
-            "Realistic Textures",
-            "3D Animation"
+            "Lighting",
+            "Render and Post Production"
         ]
     },
     {
         "title": "tools",
         "skills": [
-            "Maya",
+            "Autodesk Maya",
             "Zbrush",
             "Substance Painter",
-            " Marmoset Toolbag 4",
             "Blender",
+            "Marmoset Toolbag 4",
+            "Arnold",
             "After Effects",
-            "Photoshop"
+            "Adobe Photoshop"
         ]
     },
     {
-        "title": "softSkills",
+        "title": "strengths",
         "skills": [
             "Teamworking",
             "Leadership",
             "Creative",
             "Communication",
+            "Active listening",
             "Problem-solving"
         ]
     }

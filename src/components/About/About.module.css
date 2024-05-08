@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .mainContainer {
-    background: #242e43;
+    background: #1a253b57;
 }
 
 .container {
@@ -25,7 +25,7 @@
 }
 
 .content {
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     max-width: 1300px;
     margin: 0 auto;
     color: var(--color-text);
@@ -36,14 +36,20 @@
     display: flex;
     flex-direction: row-reverse;
     /* margin-inline: 6rem; */
-    background-color: green;   
+    /* background-color: green;    */
 }
 
 .aboutCard {
     display: flex;
     flex-direction: column;
-    width: 250px;
-    background-color: steelblue;
+    /* background-color: steelblue; */
+    align-items: center;
+}
+
+.heroImg {
+    max-width: 265px;
+    margin-bottom: .5rem;
+    border-radius: 100%;
 }
 
 .textCard {
@@ -67,7 +73,7 @@
     display: flex;
     flex-direction: column;
     padding-inline: 4rem;
-    background-color: maroon;
+    /* background-color: maroon; */
 }
 
 .name {
@@ -94,18 +100,26 @@
     justify-content: center;
     margin: 0 auto;
     width: fit-content;
-    margin-top: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    /* margin-top: auto; */
+    margin-top: 2.5rem;
     text-decoration: none;
     text-transform: uppercase;
     background-color: var(--color-primary);
+    background-image: linear-gradient(90deg, #4070FF, #00A3FF);
     color: var(--color-text);
     border-radius: 1.25rem;
     font-size: 1rem;
     font-weight: 600;
     padding: 8px 15px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 6px 23px 0 rgba(0, 0, 0, 0.25);
+}
+
+.resumeBtn:hover {
+    scale: 1.1;
+}
+
+.resumeBtn:focus {
+    scale: 1;
 }
 
 .heroImg {
@@ -114,7 +128,7 @@
 }
 
 .expertise {
-    background: saddlebrown;
+    /* background: saddlebrown; */
     display: flex;
     /* grid-template-columns: repeat( auto-fill, minmax(200px, 300px) ); */
     /* place-content: center; */
@@ -123,9 +137,18 @@
     gap: 2rem;
     padding-inline: 1rem;
     padding-block: 3rem;
+    padding-bottom: 6rem;
 }
 
-
+.separator {
+    position: absolute;
+    width: 15%;
+    height: 20px;
+    margin-top: -3.2rem;
+    right: 0;
+    background-color: var(--color-primary);
+    /* z-index: 1; */
+}
 
 @media screen and (max-width: 830px) {
     .container {
@@ -133,5 +156,19 @@
     }
     .presentation {
         align-items: center;
+    }
+
+    .bio {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .aboutCard {
+        margin-bottom: 1.5rem;
+    }
+
+    .name, .tagName {
+        text-align: center;
     }
 }

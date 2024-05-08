@@ -7,7 +7,7 @@ import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
 import { ProjectModal } from './components/Modals/ProjectModal/ProjectModal';
 import { Home } from './components/pages/Home/Home';
-import { Reel } from './components/pages/Reel/Reel';
+// import { Reel } from './components/pages/Reel/Reel';
 import { Footer } from './components/Footer/Footer';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
     <div className={styles.App}>
       <Navbar/>
       <Home/>
-      <Reel/>
+      {/* <Reel/> */}
       <Projects/>
       <ProjectModal/>
       <Experience/>
