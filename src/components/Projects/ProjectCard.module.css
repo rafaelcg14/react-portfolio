@@ -39,8 +39,9 @@
 
     .title {
         display: flex;
-        padding-inline: 12px;
-        padding-bottom: 86%;
+        padding-inline: 1rem;
+        top: 1.25rem;
+        /* padding-bottom: 86%; */
     }
 
     .image {

@@ -28,21 +28,34 @@
 .menu {
     display: grid;
     place-content: center;
-    margin-block: 5px;
+    align-content: center;
 }
 
 .menuItems {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     gap: 47px;
     list-style: none;
+    padding-inline: 2rem;
+}
+
+.menuItems li:first-child {
+    margin-right: auto;
 }
 
 .menuItems a {
     text-align: center;
     font-size: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
     color: var(--color-text);
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.menuItems a:hover {
+    background-color: #252525;
 }
 
 
@@ -82,6 +95,10 @@
         background: linear-gradient(0deg, rgba(5, 9, 26, 10) 0%, rgba(5, 9, 10, 1) 100%);
         padding: 24px 33px;
         box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    }
+
+    .menuItems li:first-child {
+        margin-right: 0;
     }
 
     .menuOpen {

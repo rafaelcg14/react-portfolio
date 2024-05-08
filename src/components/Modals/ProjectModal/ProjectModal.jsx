@@ -38,7 +38,7 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                                 className={styles.imageItem} 
                                 items={details.images}
                                 showThumbnails={false}
-                                showNav={false}
+                                // showNav={false}
                                 showBullets={true}
                                 autoPlay={true}
                                 slideDuration={2000}
@@ -49,13 +49,7 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                         <div className={styles.contentItem}>
                             <h2 className={styles.titleProject}>{details.title}</h2>
                             <p className={styles.descriptionProject}>{details.description}</p>
-                            <ul className={styles.skills}>
-                                {
-                                    details.skills.map( (skill, id) => {
-                                        return <li className={styles.skill} key={id}>{skill}</li>
-                                    } )
-                                }
-                            </ul>
+                            <a href={details.urlProject} className={styles.linkProject} target="_blank">{details.urlProject}</a>
                             <div className={styles.tools}>
                                 { details.tools.map( (tool, id) => {
                                     return (

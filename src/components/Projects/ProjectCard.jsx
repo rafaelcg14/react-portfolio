@@ -7,7 +7,7 @@ import { getImageUrl } from '../../utils';
 
 import styles from './ProjectCard.module.css';
 
-export const ProjectCard = ({project: {title, imageSrc, description, skills, demo, source, tools, images, videos}}) => {
+export const ProjectCard = ({project: {title, imageSrc, description, skills, tools, images, videos, urlProject}}) => {
     const [isModalOpened, setisModalOpened] = useState(false);
     // console.log('isModalOpened', isModalOpened);
 
@@ -23,7 +23,7 @@ export const ProjectCard = ({project: {title, imageSrc, description, skills, dem
                 className={styles.projectModal} 
                 isOpened={isModalOpened} 
                 onClose={ () => setisModalOpened(false) }
-                details={{title, description, skills, tools, images, videos}}
+                details={{title, description, skills, tools, images, videos, urlProject}}
             />
             <div 
                 className={styles.container}

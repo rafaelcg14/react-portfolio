@@ -6,7 +6,6 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    /* max-height: 1000px; */
     z-index: 111;
     background: #000000aa;
     display: flex;
@@ -50,17 +49,9 @@
 }
 
 .content {
-    /* display: grid; */
-    /* grid-template-columns: 70% 30%; */
-    /* grid-template-rows: 100%; */
-    /* grid-auto-rows: 0; */
-    /* gap: 20px 15px; */
-    /* margin-left: 10px; */
-    /* margin-right: 40px; */
     display: flex;
     flex-direction: column;
     margin: 5%;
-    /* padding-left: 15px; */
 }
 
 .presentation {
@@ -69,14 +60,8 @@
 }
 
 .imageItemContainer {
-    /* background-color: seagreen; */
     align-content: center;
 
-    /* padding: 10px; */
-    /* width: fit-content; */
-    /* height: fit-content; */
-    /* align-items: end; */
-    /* margin-left: auto; */
 }
 
 .contentItem {
@@ -101,8 +86,15 @@
 .descriptionProject {
     color: var(--color-text);
     margin-top: .5rem;
-    margin-bottom: 4rem;
     font-size: 1rem;
+}
+
+.linkProject {
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    text-decoration: none;
+    font-family: var(--font-quicksand);
+    color: var(--color-primary);
 }
 
 .skills {
@@ -197,17 +189,6 @@
         scale: 100%;
     }
 }
-
-/* .imageItemContainer {
-    view-timeline-name: --imageSlider;
-    view-timeline-axis: block;
-
-    animation-timeline: --imageSlider;
-    animation-name: show;
-
-    animation-range: entry 25% cover 50%;
-    animation-fill-mode: both;
-} */
 
 @media screen and (max-width: 830px) {
     .content {
