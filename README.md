@@ -1,6 +1,8 @@
-# React + Vite
+# Hans' Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a portfolio made for an 3D artist.
+
+This work includes sections that show several 3D samples and how their were modeled.
 
 Currently, two official plugins are available:
 
