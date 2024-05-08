@@ -48,6 +48,7 @@
 }
 
 .imageLogo {
+    width: 50px;
     object-fit: contain;
 }
 
@@ -55,25 +56,32 @@
     font-size: 1.5rem;
     letter-spacing: 1.5px;
     font-weight: 700;
-    font-family: var(--font-roboto);
+    font-family: var(--font-quicksand);
     margin-bottom: .25rem;
 }
 
-.experienceLocation {
-    font-size: 1rem;
-    font-family: var(--font-roboto);
+.experienceOrganization {
+    font-size: 1.2rem;
+    font-family: var(--font-quicksand);
     color: #16b8fe;
 }
 
-.descriptionList {
+.descriptionExperience {
+    font-size: 1rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.achievementsList {
     font-size: 1rem;
     list-style-type: circle;
     list-style-position: inside;
     padding-left: 5rem;
 }
 
-.descriptionItem {
+.achievementItem {
     margin-bottom: 4px;
+    font-family: var(--font-quicksand);
 }
 
 .separator {
@@ -102,6 +110,7 @@
         align-items: center;
         gap: 34px;
     }
+
 }
 
 @media screen and (max-width: 550px) {
@@ -124,8 +133,12 @@
         min-width: 4rem;
     }
 
-    .descriptionList {
-        padding-left: 1rem;
+    .descriptionExperience {
+        padding-left: 0;
+    }
+
+    .achievementsList {
+        padding-left: 0;
     }
 }
 
@@ -142,7 +155,7 @@
         font-size: 0.75rem;
     }
 
-    .descriptionList {
+    .achievementList {
         font-size: 0.75rem;
     }
 }
@@ -160,7 +173,7 @@
         font-size: 0.5rem;
     }
 
-    .descriptionList {
+    .achievementList {
         font-size: 0.5rem;
     }
 }

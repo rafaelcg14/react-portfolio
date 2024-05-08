@@ -1,32 +1,46 @@
 [
     {
-      "role": "Software Engineer",
+      "role": "Freelancer",
       "location": "Lima, Peru",
-      "organization": "Google",
-      "date": "Sept, 2022",
-      "description": ["Worked on Google Maps dasdsadjsaiod asdjiodsaijo asddjiaodas", "Reduced load times by 50%"],
-      "imageSrc": "history/google.png",
-      "icon": "work"
-    },
-    {
-      "role": "UI Designer",
-      "location": "Lima, Peru",
-      "organization": "Mirosoft",
-      "date": "Aug, 2021",
-      "description": ["Worked on Windows 11", "Designed the control panel"],
-      "imageSrc": "history/google.png",
-      "icon": "work"
-    },
-    {
-      "role": "2D & 3D Digital Animation and VFX",
-      "location": "Lima, Peru",
-      "organization": "Toulouse Lautrec",
-      "date": "Apr, 2020",
-      "description": [
-        "companyImg on component library",
-        "Helped create UI components"
+      "organization": "Freelance",
+      "date": "Currently",
+      "description": "Modelado de props y escenarios por comisión en páginas como Workana, Fiverr y UpWork.",
+      "achievements": [
+        
       ],
-      "imageSrc": "history/google.png",
+      "imageSrc": "history/workana.jpg",
+      "icon": "work"
+    },
+    {
+      "role": "3D Modeler",
+      "location": "Lima, Peru",
+      "organization": "Star Toons Animation",
+      "date": "Apr, 2023 - Sept, 2023",
+      "description": "Participación en el cortometraje animado 'Carrusel' ('Un Vals Así'). Cortometraje inspirado en la vida y obra del compositor peruano Jorge Madueño.",
+      "achievements": [
+        "Modelar escenarios y props 3D de diferentes locaciones del distrito de Barranco (Lima, Perú) realizados en Autodesk Maya y Blender.",
+        "Texturizar props con estilo Toon Shader en Blender.",
+        "Realizar storyboard para algunas escenas del cortometraje.",
+        "Realizar pruebas de animación 2D del personaje principal."
+      ],
+      "imageSrc": "history/star-toon.jpg",
+      "icon": "work"
+    },
+    {
+      "role": "Animación Digital 2D & 3D",
+      "location": "Lima, Peru",
+      "organization": "Escuela Superior Toulouse Lautrec",
+      "date": "Aug, 2019 - Jun, 2023",
+      "description": "Durante la carrera desarrollé el dominio de tecnicas 2D, 3D y VFX para cine, publicidad y videojuegos.",
+      "achievements": [
+        "Alumno becado por excelencia académica en 2020.",
+        "Animador Junior para el piloto animado 2D 'Luchín Gonzales' en 2020.",
+        "Participante del 'GameJam 48hrs 2020', como Codirector de arte.",
+        "Director General del cortometraje 2D 'La Magia Perdida' en 2021.",
+        "Participante del 'GameJam 48hrs 2022', como Codirector de arte.",
+        "Director General del cortometraje 3D 'Inmersive' en 2022 -2023."
+      ],
+      "imageSrc": "history/toulouse-lautrec.jpg",
       "icon": "education"
     }
   ]

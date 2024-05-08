@@ -49,8 +49,6 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                         <div className={styles.contentItem}>
                             <h2 className={styles.titleProject}>{details.title}</h2>
                             <p className={styles.descriptionProject}>{details.description}</p>
-                            <p className={styles.descriptionProject}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis distinctio, quos alias dolorum quam, ab omnis, laboriosam nemo voluptas fuga itaque nisi odio expedita hic doloremque eum delectus dolor? Recusandae.</p>
-                            <p className={styles.descriptionProject}>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis distinctio, quos alias dolorum quam, ab omnis, laboriosam nemo voluptas fuga itaque nisi odio expedita hic doloremque eum delectus dolor? Recusandae.</p>
                             <ul className={styles.skills}>
                                 {
                                     details.skills.map( (skill, id) => {
@@ -72,12 +70,12 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                             </div>
                         </div>
                     </div>
-                    {/* <div className={styles.videosContainer}>
+                    <div className={styles.videosContainer}>
                         {
                             details.videos.map( (videoItem, id) => {
                                 return (
+                                    videoItem.videoUrl &&
                                     <div className={styles.videosContent} key={id}>
-                                        <h4 className={styles.videoTitle}>{videoItem.videoName}</h4>
                                         <video 
                                             className={styles.videoItem}
                                             autoPlay
@@ -92,11 +90,12 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                                                 type="video/mp4"
                                             />
                                         </video>
+                                        <h4 className={styles.videoTitle}>{videoItem.videoName}</h4>
                                     </div>
                                 );
                             } )
                         }
-                    </div> */}
+                    </div>
                 </div>
             </section>
         </div>

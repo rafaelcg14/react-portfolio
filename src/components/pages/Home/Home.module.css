@@ -35,18 +35,17 @@
 }
 
 .name {
-    font-size: 64px;
+    font-size: 5.25rem;
     font-weight: 700;
-    letter-spacing: 4px;
-    text-transform: uppercase;
     color: var(--color-primary);
-    font-family: var(--font-zendots);
+    /* font-family: var(--font-zendots); */
+    font-family: 'Magneto', var(--font-zendots);
 }
 
 .subtitle {
     text-transform: uppercase;
     font-weight: 300;
-    font-size: 24px;
+    font-size: 1.25rem;
 }
 
 .userImageContainer {
@@ -125,22 +124,54 @@
     scale: 1.15;
 }
 
-.imageGalleryContainer {
-    /* background-color: lightskyblue; */
+/* .imageGalleryContainer {
     position: relative;
     display: grid;
-    /* grid-column: auto; */
     width: 100%;
     height: 100%;
-}
+} */
 
 
 .videoItem {
-    /* display: grid; */
     width: 100vw;
-    height: 100%;
-    filter: brightness(0.6);    object-position: right;
+    height: 100vh;
+    object-fit: cover;
+    margin: auto;
+    aspect-ratio: 16 / 9;
+    filter: brightness(0.6);
 }
+
+/* .imageGalleryContainer {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    background-image: url(../../../../assets/home/sample-image-1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 7.5s;
+
+    animation-name: animate;
+    animation-direction: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+} */
+
+/* @keyframes animate {
+    0% {
+        background-image: url(../../../../assets/home/sample-image-2.jpeg);
+    }
+    50% {
+        background-image: url(../../../../assets/home/sample-image-3.jpeg);
+    }
+    100% {
+        background-image: url(../../../../assets/home/sample-image-1.jpg);
+    }
+} */
 
 @media screen and (max-width: 1200px) {
     .userDataContainer {

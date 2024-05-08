@@ -28,9 +28,10 @@
 
 .title {
     display: none;
-    font-size: 1.5rem;
-    font-weight: 600;
     position: absolute;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
 }
 
 .container:hover {
@@ -38,13 +39,13 @@
 
     .title {
         display: flex;
-        padding-inline: 20px;
-        padding-bottom: 20px;
+        padding-inline: 12px;
+        padding-bottom: 86%;
     }
 
     .image {
         /* filter: opacity(30%) sepia(40%) hue-rotate(170deg) saturate(500%); */
-        filter: opacity(30%);
+        filter: opacity(60%);
     }
 
 }

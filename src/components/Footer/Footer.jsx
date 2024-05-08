@@ -9,7 +9,7 @@ export const Footer = () => {
     <footer className={styles.container}>
         <div className={styles.text}>
             <span className={styles.description}>&copy; 2024. Hans Diaz</span>
-            <span className={styles.description}>Collab with <a href="https://www.google.com">Rafael Castellanos</a>.</span>
+            <span className={styles.description}>Collab with <a href="https://www.linkedin.com/in/rafael-castellanos-guzman" target="_blank">Rafael Castellanos</a>.</span>
         </div>
     </footer>
   )

@@ -30,7 +30,7 @@ export const ProjectCard = ({project: {title, imageSrc, description, skills, dem
                 onClick={ () => setisModalOpened(!isModalOpened) }
             >
                 <div className={styles.imageContainer}>
-                    <img className={styles.image} src="https://picsum.photos/id/234/1444/1444" alt={`Image of ${title}`} />
+                    <img className={styles.image} src={imageSrc} alt={`Image of ${title}`} />
                     <h3 className={styles.title}>{title}</h3>
                 </div>
             </div>

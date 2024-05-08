@@ -64,15 +64,16 @@ export const Experience = () => {
                                                     <img className={styles.imageLogo} src={getImageUrl(hist.imageSrc)} alt="Experience logo" />
                                                 </div>
                                                 <div className={styles.experienceTitleContainer}>
-                                                    <h3 className={styles.experienceTitle}>{`${hist.role} at ${hist.organization}`}</h3>
-                                                    <h5 className={styles.experienceLocation}>{hist.location}</h5>
+                                                    <h3 className={styles.experienceTitle}>{hist.role}</h3>
+                                                    <h5 className={styles.experienceOrganization}>{hist.organization}</h5>
                                                 </div>
                                             </div>
-                                            <ul className={styles.descriptionList}>
+                                            <p className={styles.descriptionExperience}>{hist.description}</p>
+                                            <ul className={styles.achievementsList}>
                                                 {
-                                                    hist.description.map( (desc, id) => {
+                                                    hist.achievements.map( (desc, id) => {
                                                         return (
-                                                            <li key={id} className={styles.descriptionItem}>{desc}</li>
+                                                            <li key={id} className={styles.achievementItem}>{desc}</li>
                                                         );
                                                     } )
                                                 }

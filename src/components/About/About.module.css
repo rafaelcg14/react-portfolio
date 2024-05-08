@@ -42,8 +42,14 @@
 .aboutCard {
     display: flex;
     flex-direction: column;
-    width: 250px;
     /* background-color: steelblue; */
+    align-items: center;
+}
+
+.heroImg {
+    max-width: 265px;
+    margin-bottom: .5rem;
+    border-radius: 100%;
 }
 
 .textCard {
@@ -94,9 +100,8 @@
     justify-content: center;
     margin: 0 auto;
     width: fit-content;
-    margin-top: auto;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    /* margin-top: auto; */
+    margin-top: 2.5rem;
     text-decoration: none;
     text-transform: uppercase;
     background-color: var(--color-primary);

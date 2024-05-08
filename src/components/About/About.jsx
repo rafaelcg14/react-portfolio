@@ -12,21 +12,20 @@ export const About = () => {
         <div className={styles.content}>
           <article className={styles.bio}>
             <div className={styles.descriptionCard}>
-              <h4 className={styles.name}>Hans Diaz</h4>
-              <span className={styles.tagName}>3D Generalist</span>
-              <p className={styles.description}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sed in distinctio ut quam labore illum soluta, veritatis ex! Saepe, sunt! Et aliquid nisi eos quidem fugiat? Corporis, est molestiae?</p>
-              <p className={styles.description}>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum sed in distinctio ut quam labore illum soluta, veritatis ex! Saepe, sunt! Et aliquid nisi eos quidem fugiat? Corporis, est molestiae?</p>
-              <a className={styles.resumeBtn} href="/">See Resume</a>
+              <h4 className={styles.name}>Hans Díaz</h4>
+              <span className={styles.tagName}>3D Artist | Modeling and Texturing</span>
+              <p className={styles.description}>Hans Díaz, Artista 3D y egresado de Toulouse Lautrec, destaco en técnicas 3D y VFX para cine, publicidad y videojuegos. Experto en modelado y texturizado en Maya, Blender, ZBrush, Substance Painter, Marmoset Toolbag y Arnold Renderer. Trabajé en Star Toons Animation modelando y texturizando para el cortometraje “Un Vals Así”. Apasionado por crear y dar vida a escenarios y personajes 3D, es meticuloso, detallista y valora el trabajo en equipo, la comunicación asertiva y el liderazgo.</p>
+              <a className={styles.resumeBtn} href="/">Download CV</a>
             </div>
             <div className={styles.aboutCard}>
-              <img className={styles.heroImg} src={getImageUrl('hero/hero.png')} alt="Hero image of me" />
+              <img className={styles.heroImg} src={getImageUrl('hero/hero.jpg')} alt="Hero image of me" />
               <div className={styles.textCard}>
                 <img src={getImageUrl('about/location-icon.svg')} alt="location" />
                 <span>Lima, Peru</span>
               </div>
               <div className={styles.textCard}>
                 <img src={getImageUrl('contact/email-icon.svg')} alt="location" />
-                <span>hans777@gmail.com</span>
+                <span>hansdiaz.hz@gmail.com</span>
               </div>
             </div>
           </article>

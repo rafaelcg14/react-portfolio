@@ -42,7 +42,7 @@ export const Contact = () => {
                             </li>
                             <li className={styles.link}>
                                 <img src={getImageUrl('contact/phone-icon.svg')} alt="Phone icon" />
-                                <a>(+51) 111 111 111</a>
+                                <a>(+51) 950 482 999</a>
                             </li>
                         </ul>
                     </div>
