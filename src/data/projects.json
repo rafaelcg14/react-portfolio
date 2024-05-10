@@ -1,5 +1,62 @@
 [
     {
+      "title": "Packaging premium",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/748/469/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715324965",
+      "description": "Diseñé, modelé, texturicé y rendericé este proyecto. Primero tomé múltiples referencias de Pinterest y una vez que tuve una idea clara del diseño, empecé a modelar en Autodesk Maya partiendo de cero. Una vez que tuve el modelo 3D listo, realicé el UV Mapping para luego texturizar en Substance Painter con una armoniosa paleta de color que creé para este proyecto. Inmediatamente después de exportar las texturas, importé el modelo 3D texturizado a Marmoset Toolbag donde iluminé y rendericé las imágenes de este packaging.",
+      "urlProject": "https://www.artstation.com/artwork/qegJPy",
+      "images": [
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/747/960/large/hans-diaz-render-as-3.jpg?1715323717"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/747/947/large/hans-diaz-render-as-1.jpg?1715323689"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/747/952/large/hans-diaz-render-as-2.jpg?1715323697"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/747/989/large/hans-diaz-tbrender-camera-3.jpg?1715323803"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/747/995/large/hans-diaz-tbrender-camera-3-001.jpg?1715323823"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/747/997/large/hans-diaz-tbrender-camera-3-002.jpg?1715323831"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/748/002/large/hans-diaz-tbrender-camera-3-003.jpg?1715323839"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/748/005/large/hans-diaz-tbrender-camera-3-006.jpg?1715323849"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/748/018/large/hans-diaz-viewport-maya.jpg?1715323866"
+        },
+        {
+            "original": "https://cdna.artstation.com/p/assets/images/images/075/748/024/large/hans-diaz-viewport-substance-2.jpg?1715323872"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/748/027/large/hans-diaz-viewport-substance.jpg?1715323881"
+        },
+        {
+            "original": "https://cdnb.artstation.com/p/assets/images/images/075/748/029/large/hans-diaz-viewport-marmoset.jpg?1715323886"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
       "title": "Immersive: Aldo",
       "typeOfModel": "3D",
       "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/697/561/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715199024",
