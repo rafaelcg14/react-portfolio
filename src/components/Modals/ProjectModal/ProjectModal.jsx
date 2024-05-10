@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 
 import ImageGallery from 'react-image-gallery';
@@ -12,25 +13,51 @@ const mountElement = document.getElementById('project-modal');
 
 export const ProjectModal = ( {isOpened, onClose, details} ) => {
     
-    // console.log(details);
+    const modalRef = useRef(null);
 
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (modalRef.current && !modalRef.current.contains(event.target)) {
+                onClose();
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [onClose]);
+    
+    useEffect(() => {
+        const handleEscapeKey = (event) => {
+            if (event.code === 'Escape') {
+                onClose();
+            }
+        };
+        
+        document.addEventListener('keydown', handleEscapeKey);
+        
+        return () => {
+            document.removeEventListener('keydown', handleEscapeKey);
+        };
+    }, [onClose]);
+    
     if ( !isOpened ) {
         return null;
     }
+
     return createPortal(
         <div className={styles.modal}>
             <section className={styles.container}>
-                <div onClick={onClose}>
-                    <div className={styles.closeBtnContainer}>
+                <div className={styles.content} ref={modalRef}>
+                    <div className={styles.closeBtnContainer} onClick={onClose}>
                         <img 
                         className={styles.closeBtn} 
                         src={getImageUrl('nav/closeMenu.svg')} 
-                        
                         alt="close-modal-btn"
                         />
                     </div>
-                </div>
-                <div className={styles.content}>
                     <div className={styles.presentation}>
                         <div className={styles.imageItemContainer}>
                             {/* <img className={styles.imageItem} src={getImageUrl('project-samples/sample-4.jpeg')} alt="image" /> */}
@@ -40,9 +67,10 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                                 showThumbnails={false}
                                 // showNav={false}
                                 showBullets={true}
-                                autoPlay={true}
-                                slideDuration={2000}
+                                autoPlay={false}
+                                slideDuration={750}
                                 slideInterval={4000}
+                                showIndex={true}
                             />
                         </div>
                         {/* <img src={getImageUrl('about/aboutImage.png')} alt="image" /> */}

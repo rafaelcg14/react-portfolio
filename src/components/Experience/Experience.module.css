@@ -61,13 +61,13 @@
 }
 
 .experienceOrganization {
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     font-family: var(--font-quicksand);
     color: #16b8fe;
 }
 
 .descriptionExperience {
-    font-size: 1rem;
+    font-size: 1rem !important;
     padding-left: 5rem;
     padding-bottom: 1rem;
 }
@@ -111,9 +111,6 @@
         gap: 34px;
     }
 
-}
-
-@media screen and (max-width: 550px) {
     .contentExperience {
         display: flex;
         flex-direction: column;
@@ -125,6 +122,14 @@
         text-align: center;
     }
 
+    .descriptionExperience, .achievementsList {
+        /* font-size: 0.75rem !important; */
+        padding-left: 0;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
     .imageContainer {
         margin-top: 1rem;
     }
@@ -133,47 +138,41 @@
         min-width: 4rem;
     }
 
-    .descriptionExperience {
-        padding-left: 0;
-    }
-
-    .achievementsList {
-        padding-left: 0;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .imageLogo {
-        min-width: 3rem;
-    }
-
     .experienceTitle {
         font-size: 1.25rem;
     }
 
-    .experienceLocation {
-        font-size: 0.75rem;
+    .experienceOrganization {
+        font-size: 1rem;
     }
 
-    .achievementList {
-        font-size: 0.75rem;
+    .descriptionExperience, .achievementsList {
+        font-size: 0.75rem !important;
     }
 }
 
+
+
 @media screen and (max-width: 450px) {
+    .timelineContent {
+        padding: 0;
+    }    
+
     .imageLogo {
         min-width: 3rem;
+        margin-top: -1.25rem;
+        margin-bottom: -1rem;
     }
 
     .experienceTitle {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
-    .experienceLocation {
-        font-size: 0.5rem;
+    .experienceOrganization {
+        font-size: .75rem;
     }
 
-    .achievementList {
-        font-size: 0.5rem;
+    .descriptionExperience, .achievementsList {
+        font-size: 0.5rem !important;
     }
 }
