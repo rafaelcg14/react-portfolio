@@ -15,7 +15,7 @@ export const About = () => {
               <h4 className={styles.name}>Hans Díaz</h4>
               <span className={styles.tagName}>3D Artist | Modeling and Texturing</span>
               <p className={styles.description}>Hans Díaz, Artista 3D y egresado de Toulouse Lautrec, destaco en técnicas 3D y VFX para cine, publicidad y videojuegos. Experto en modelado y texturizado en Maya, Blender, ZBrush, Substance Painter, Marmoset Toolbag y Arnold Renderer. Trabajé en Star Toons Animation modelando y texturizando para el cortometraje “Un Vals Así”. Apasionado por crear y dar vida a escenarios y personajes 3D, es meticuloso, detallista y valora el trabajo en equipo, la comunicación asertiva y el liderazgo.</p>
-              <a className={styles.resumeBtn} href="../../../assets/about/Hans_Diaz_3D_Artist_CV.pdf" download="Hans_Diaz_3D_Artist_CV.pdf">Download CV</a>
+              <a className={styles.resumeBtn} href="../../../public/Hans_Diaz_3D_Artist_CV.pdf" download="Hans_Diaz_3D_Artist_CV.pdf">Download CV</a>
             </div>
             <div className={styles.aboutCard}>
               <img className={styles.heroImg} src={getImageUrl('hero/hero.jpg')} alt="Hero image of me" />
