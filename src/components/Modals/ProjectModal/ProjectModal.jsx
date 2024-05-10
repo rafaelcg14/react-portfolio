@@ -20,17 +20,14 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
     return createPortal(
         <div className={styles.modal}>
             <section className={styles.container}>
-                <div onClick={onClose}>
-                    <div className={styles.closeBtnContainer}>
+                <div className={styles.content}>
+                    <div className={styles.closeBtnContainer} onClick={onClose}>
                         <img 
                         className={styles.closeBtn} 
                         src={getImageUrl('nav/closeMenu.svg')} 
-                        
                         alt="close-modal-btn"
                         />
                     </div>
-                </div>
-                <div className={styles.content}>
                     <div className={styles.presentation}>
                         <div className={styles.imageItemContainer}>
                             {/* <img className={styles.imageItem} src={getImageUrl('project-samples/sample-4.jpeg')} alt="image" /> */}
@@ -40,9 +37,10 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                                 showThumbnails={false}
                                 // showNav={false}
                                 showBullets={true}
-                                autoPlay={true}
-                                slideDuration={2000}
+                                autoPlay={false}
+                                slideDuration={750}
                                 slideInterval={4000}
+                                showIndex={true}
                             />
                         </div>
                         {/* <img src={getImageUrl('about/aboutImage.png')} alt="image" /> */}

@@ -172,3 +172,21 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 450px) {
+    .name {
+        font-size: 1.5rem;
+    }
+    
+    .tagName {
+        font-size: .75rem;
+    }
+    
+    .descriptionCard {
+        padding-inline: 0;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}
