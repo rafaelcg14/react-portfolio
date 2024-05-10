@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect, useRef } from 'react';
 import { createPortal } from 'react-dom';
 
 import ImageGallery from 'react-image-gallery';
@@ -12,15 +13,44 @@ const mountElement = document.getElementById('project-modal');
 
 export const ProjectModal = ( {isOpened, onClose, details} ) => {
     
-    // console.log(details);
+    const modalRef = useRef(null);
 
+    useEffect(() => {
+        const handleClickOutside = (event) => {
+            if (modalRef.current && !modalRef.current.contains(event.target)) {
+                onClose();
+            }
+        };
+
+        document.addEventListener('mousedown', handleClickOutside);
+
+        return () => {
+            document.removeEventListener('mousedown', handleClickOutside);
+        };
+    }, [onClose]);
+    
+    useEffect(() => {
+        const handleEscapeKey = (event) => {
+            if (event.code === 'Escape') {
+                onClose();
+            }
+        };
+        
+        document.addEventListener('keydown', handleEscapeKey);
+        
+        return () => {
+            document.removeEventListener('keydown', handleEscapeKey);
+        };
+    }, [onClose]);
+    
     if ( !isOpened ) {
         return null;
     }
+
     return createPortal(
         <div className={styles.modal}>
             <section className={styles.container}>
-                <div className={styles.content}>
+                <div className={styles.content} ref={modalRef}>
                     <div className={styles.closeBtnContainer} onClick={onClose}>
                         <img 
                         className={styles.closeBtn} 
