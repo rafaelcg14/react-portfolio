@@ -1,9 +1,6 @@
-import React from 'react';
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 
-import ImageGallery from 'react-image-gallery';
-import "react-image-gallery/styles/css/image-gallery.css";
 
 import { getImageUrl } from '../../../utils';
 
@@ -14,6 +11,7 @@ const mountElement = document.getElementById('project-modal');
 export const ProjectModal = ( {isOpened, onClose, details} ) => {
     
     const modalRef = useRef(null);
+    const [hoveredImage, setHoveredImage] = useState(null);
 
     useEffect(() => {
         const handleClickOutside = (event) => {
@@ -49,8 +47,8 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
 
     return createPortal(
         <div className={styles.modal}>
-            <section className={styles.container}>
-                <div className={styles.content} ref={modalRef}>
+            <section className={styles.container} ref={modalRef}>
+                <div className={styles.content} >
                     <div className={styles.closeBtnContainer} onClick={onClose}>
                         <img 
                         className={styles.closeBtn} 
@@ -59,21 +57,6 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                         />
                     </div>
                     <div className={styles.presentation}>
-                        <div className={styles.imageItemContainer}>
-                            {/* <img className={styles.imageItem} src={getImageUrl('project-samples/sample-4.jpeg')} alt="image" /> */}
-                            <ImageGallery 
-                                className={styles.imageItem} 
-                                items={details.images}
-                                showThumbnails={false}
-                                // showNav={false}
-                                showBullets={true}
-                                autoPlay={false}
-                                slideDuration={750}
-                                slideInterval={4000}
-                                showIndex={true}
-                            />
-                        </div>
-                        {/* <img src={getImageUrl('about/aboutImage.png')} alt="image" /> */}
                         <div className={styles.contentItem}>
                             <h2 className={styles.titleProject}>{details.title}</h2>
                             <p className={styles.descriptionProject}>{details.description}</p>
@@ -85,38 +68,65 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                                             <div className={styles.toolImageContainer}>
                                                 <img src={getImageUrl(tool.imageSrc)} alt={tool.title} />
                                             </div>
-                                            {/* <p>{ tool.name }</p> */}
                                         </div>
                                     );
                                 } ) }
                             </div>
                         </div>
-                    </div>
-                    <div className={styles.videosContainer}>
-                        {
-                            details.videos.map( (videoItem, id) => {
-                                return (
-                                    videoItem.videoUrl &&
-                                    <div className={styles.videosContent} key={id}>
-                                        <video 
-                                            className={styles.videoItem}
-                                            autoPlay
-                                            loop
-                                            controls
-                                            controlsList="nodownload noremoteplayback noplaybackrate"
-                                            disablePictureInPicture
-                                            muted
+                        <div className={styles.imageContainer}>
+                            {
+                                details.images.map( (image, index) => {
+                                    return (
+                                        <div 
+                                            key={index} 
+                                            className={styles.imageItemContainer}
+                                            onMouseEnter={() => setHoveredImage(index)}
+                                            onMouseLeave={() => setHoveredImage(null)}
                                         >
-                                            <source 
-                                                src={videoItem.videoUrl} 
-                                                type="video/mp4"
+                                            <img 
+                                                className={styles.imageItem}
+                                                src={image.urlImage}
+                                                alt={image.imageTitle}
                                             />
-                                        </video>
-                                        <h4 className={styles.videoTitle}>{videoItem.videoName}</h4>
-                                    </div>
-                                );
-                            } )
-                        }
+                                            {hoveredImage === index && (
+                                                <div className={styles.btnExpandImg}>
+                                                    <a className={styles.expandIcon} href={image.urlImage} target='_blank' rel="noopener noreferrer">
+                                                        <img src={getImageUrl('projects/expand.svg')} alt="Expand" />
+                                                    </a>
+                                                </div>
+                                            )}
+                                            <span className={styles.imgTitle}>{image.imageTitle}</span>
+                                        </div>
+                                    )
+                                })
+                            }
+                        </div>
+                        <div className={styles.videosContainer}>
+                            {
+                                details.videos.map( (videoItem, id) => {
+                                    return (
+                                        videoItem.videoUrl &&
+                                        <div className={styles.videosContent} key={id}>
+                                            <video 
+                                                className={styles.videoItem}
+                                                autoPlay
+                                                loop
+                                                controls
+                                                controlsList="nodownload noremoteplayback noplaybackrate"
+                                                disablePictureInPicture
+                                                muted
+                                            >
+                                                <source 
+                                                    src={videoItem.videoUrl} 
+                                                    type="video/mp4"
+                                                />
+                                            </video>
+                                            <span className={styles.videoTitle}>{videoItem.videoName}</span>
+                                        </div>
+                                    );
+                                } )
+                            }
+                        </div>
                     </div>
                 </div>
             </section>
