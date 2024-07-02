@@ -1,5 +1,66 @@
 [
     {
+      "title": "Pocket Walkman",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/077/625/063/smaller_square/hans-diaz-hans-diaz-portada-artstation-walkman.jpg?1719930921",
+      "description": "3D modeling, texturing, and lighting created by me, based on the concept art by artist Davey Perkins, who titled this design ‘Pocket Walk.’ For this model, I decided to use a Mid-poly polygon density. Once the 3D model was ready in Autodesk Maya, I textured it in Substance Painter, recreating the texture based on the reference and adding my own details, such as the product label and the back view. Finally, I proceeded to illuminate and set up cameras in Marmoset Toolbag 4 for rendering.",
+      "urlProject": "https://www.artstation.com/artwork/9EGXwW",
+      "images": [
+        {
+          "imageTitle": "Pocket Walk - Composition",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/623/052/large/hans-diaz-portada.jpg?1719927394"
+        },
+        {
+          "imageTitle": "Frontal view",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/077/620/431/large/hans-diaz-render-camera-p2.jpg?1719922442"
+        },
+        {
+          "imageTitle": "Back view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/620/448/large/hans-diaz-render-camera-p3-001.jpg?1719922476"
+        },
+        {
+          "imageTitle": "Detail Plane 1",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/620/482/large/hans-diaz-render-camera-p4.jpg?1719922548"
+        },
+        {
+          "imageTitle": "Detail Plane 2",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/620/486/large/hans-diaz-render-camera-p6.jpg?1719922556"
+        },
+        {
+          "imageTitle": "Detail Plane 3",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/620/494/large/hans-diaz-render-camera-p7.jpg?1719922569"
+        },
+        {
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/621/694/large/hans-diaz-captura-de-pantalla-2024-07-02-074642.jpg?1719924825"
+        },
+        {
+          "imageTitle": "Viewport - Substance Painter",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/621/696/large/hans-diaz-captura-de-pantalla-2024-07-02-074643.jpg?1719924830"
+        },
+        {
+          "imageTitle": "Viewport - Marmoset Toolbag 4",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/621/698/large/hans-diaz-captura-de-pantalla-2024-07-02-075319.jpg?1719924835"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "Functional",
+          "videoUrl": "https://cdn.artstation.com/p/video_sources/002/060/531/render-camera-p1-002.mp4"
+        },
+        {
+          "videoName": "Texturing - Substance Painter",
+          "videoUrl": "https://cdn.artstation.com/p/video_sources/002/060/537/render-camera-p1-001.mp4"
+        }
+      ]
+    },
+    {
       "title": "Packaging premium",
       "typeOfModel": "3D",
       "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/748/469/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715324965",
@@ -7,40 +68,56 @@
       "urlProject": "https://www.artstation.com/artwork/qegJPy",
       "images": [
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/747/960/large/hans-diaz-render-as-3.jpg?1715323717"
+          "imageTitle": "Composition - Camera 1",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/747/960/large/hans-diaz-render-as-3.jpg?1715323717"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/747/947/large/hans-diaz-render-as-1.jpg?1715323689"
+          "imageTitle": "Composition - Camera 2",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/747/947/large/hans-diaz-render-as-1.jpg?1715323689"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/747/952/large/hans-diaz-render-as-2.jpg?1715323697"
+          "imageTitle": "Composition - Camera 3",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/747/952/large/hans-diaz-render-as-2.jpg?1715323697"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/747/989/large/hans-diaz-tbrender-camera-3.jpg?1715323803"
+          "imageTitle": "Detail Plane 1",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/747/989/large/hans-diaz-tbrender-camera-3.jpg?1715323803"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/747/995/large/hans-diaz-tbrender-camera-3-001.jpg?1715323823"
+          "imageTitle": "Detail Plane 2",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/747/995/large/hans-diaz-tbrender-camera-3-001.jpg?1715323823"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/747/997/large/hans-diaz-tbrender-camera-3-002.jpg?1715323831"
+          "imageTitle": "Detail Plane 3",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/747/997/large/hans-diaz-tbrender-camera-3-002.jpg?1715323831"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/748/002/large/hans-diaz-tbrender-camera-3-003.jpg?1715323839"
+          "imageTitle": "Detail Plane 4",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/748/002/large/hans-diaz-tbrender-camera-3-003.jpg?1715323839"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/748/005/large/hans-diaz-tbrender-camera-3-006.jpg?1715323849"
+          "imageTitle": "Detail Plane 5",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/748/005/large/hans-diaz-tbrender-camera-3-006.jpg?1715323849"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/748/018/large/hans-diaz-viewport-maya.jpg?1715323866"
+          "imageTitle": "Detail Plane 6",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/748/012/large/hans-diaz-tbrender-camera-3-004.jpg?1715323860"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/748/024/large/hans-diaz-viewport-substance-2.jpg?1715323872"
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/748/018/large/hans-diaz-viewport-maya.jpg?1715323866"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/748/027/large/hans-diaz-viewport-substance.jpg?1715323881"
+          "imageTitle": "Viewport - Substance 3D Painter",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/748/024/large/hans-diaz-viewport-substance-2.jpg?1715323872"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/748/029/large/hans-diaz-viewport-marmoset.jpg?1715323886"
+          "imageTitle": "Viewport 2 - Substance 3D Painter",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/748/027/large/hans-diaz-viewport-substance.jpg?1715323881"
+        },
+        {
+          "imageTitle": "Viewport - Marmoset Toolbag 4",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/748/029/large/hans-diaz-viewport-marmoset.jpg?1715323886"
         }
       ],
       "tools": [
@@ -64,28 +141,36 @@
       "urlProject": "https://www.artstation.com/artwork/n0gwWe",
       "images": [
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/693/883/large/hans-diaz-render-1-as.jpg?1715192250"
+          "imageTitle": "Dynamic pose R",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/693/883/large/hans-diaz-render-1-as.jpg?1715192250"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/693/893/large/hans-diaz-render-as-2.jpg?1715192261"
+          "imageTitle": "Dynamic pose L",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/693/893/large/hans-diaz-render-as-2.jpg?1715192261"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/693/895/large/hans-diaz-render-as-3.jpg?1715192270"
+          "imageTitle": "Resting pose",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/693/895/large/hans-diaz-render-as-3.jpg?1715192270"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/693/905/large/hans-diaz-render-as-4.jpg?1715192278"
+          "imageTitle": "Detail plane L",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/693/905/large/hans-diaz-render-as-4.jpg?1715192278"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/693/914/large/hans-diaz-render-as-5.jpg?1715192288"
+          "imageTitle": "Detail plane R",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/693/914/large/hans-diaz-render-as-5.jpg?1715192288"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/693/922/large/hans-diaz-render-as-6.jpg?1715192299"
+          "imageTitle": "Front view - Resting pose variation",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/693/922/large/hans-diaz-render-as-6.jpg?1715192299"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/693/928/large/hans-diaz-render-as-7.jpg?1715192307"
+          "imageTitle": "Expressions",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/693/928/large/hans-diaz-render-as-7.jpg?1715192307"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/693/930/large/hans-diaz-image.jpg?1715192314"
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/693/930/large/hans-diaz-image.jpg?1715192314"
         }
       ],
       "tools": [
@@ -109,28 +194,36 @@
       "urlProject": "https://www.artstation.com/artwork/NydlRb",
       "images": [
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/637/large/hans-diaz-render-as-4.jpg?1715171976"
+          "imageTitle": "3/4 View",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/682/637/large/hans-diaz-render-as-4.jpg?1715171976"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/599/large/hans-diaz-render-as-2.jpg?1715171934"
+          "imageTitle": "Detail plane",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/682/599/large/hans-diaz-render-as-2.jpg?1715171934"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/682/616/large/hans-diaz-render-as-3.jpg?1715171961"
+          "imageTitle": "Front view and Left view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/682/616/large/hans-diaz-render-as-3.jpg?1715171961"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/682/644/large/hans-diaz-render-as-5.jpg?1715171994"
+          "imageTitle": "Final Render",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/682/644/large/hans-diaz-render-as-5.jpg?1715171994"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/661/large/hans-diaz-wireframe.jpg?1715172008"
+          "imageTitle": "Wireframe",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/682/661/large/hans-diaz-wireframe.jpg?1715172008"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/669/large/hans-diaz-zbrush.jpg?1715172027"
+          "imageTitle": "Digital Sculpting in Zbrush",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/682/669/large/hans-diaz-zbrush.jpg?1715172027"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/673/large/hans-diaz-viewport.jpg?1715172033"
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/682/673/large/hans-diaz-viewport.jpg?1715172033"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/682/759/large/hans-diaz-refe.jpg?1715172169"
+          "imageTitle": "Concept Art",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/682/759/large/hans-diaz-refe.jpg?1715172169"
         }
       ],
       "tools": [
@@ -154,31 +247,40 @@
       "urlProject": "https://www.artstation.com/artwork/obL4eL",
       "images": [
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/736/large/hans-diaz-render-as-1.jpg?1715146264"
+          "imageTitle": "Lighting and final render",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/670/736/large/hans-diaz-render-as-1.jpg?1715146264"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/830/large/hans-diaz-render-as-7.jpg?1715146461"
+          "imageTitle": "Detail plane L",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/670/830/large/hans-diaz-render-as-7.jpg?1715146461"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/833/large/hans-diaz-render-as-8.jpg?1715146474"
+          "imageTitle": "Detail plane R",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/670/833/large/hans-diaz-render-as-8.jpg?1715146474"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/740/large/hans-diaz-render-as-4.jpg?1715146277"
+          "imageTitle": "Low Poly (Modeling) - Autodesk Maya",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/670/740/large/hans-diaz-render-as-4.jpg?1715146277"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/745/large/hans-diaz-render-as-3.jpg?1715146287"
+          "imageTitle": "High Poly (Digital Sculpture)- Zbrush",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/670/745/large/hans-diaz-render-as-3.jpg?1715146287"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/749/large/hans-diaz-render-as-2.jpg?1715146298"
+          "imageTitle": "UV Mapping - Autodesk Maya",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/670/749/large/hans-diaz-render-as-2.jpg?1715146298"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/752/large/hans-diaz-render-as-5.jpg?1715146306"
+          "imageTitle": "Baking and Texturing - Substance Painter",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/670/752/large/hans-diaz-render-as-5.jpg?1715146306"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/671/001/large/hans-diaz-render-as-9.jpg?1715146931"
+          "imageTitle": "Front View",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/671/001/large/hans-diaz-render-as-9.jpg?1715146931"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/671/240/large/hans-diaz-viewport.jpg?1715147832"
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/671/240/large/hans-diaz-viewport.jpg?1715147832"
         }
       ],
       "tools": [
@@ -218,31 +320,24 @@
       "urlProject": "https://www.artstation.com/artwork/9EJAEa",
       "images": [
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/233/large/hans-diaz-render-as-1.jpg?1715144289"
+          "imageTitle": "Front view",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/670/233/large/hans-diaz-render-as-1.jpg?1715144289"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/234/large/hans-diaz-render-as-2.jpg?1715144297"
+          "imageTitle": "3/4 view L",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/670/234/large/hans-diaz-render-as-2.jpg?1715144297"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/235/large/hans-diaz-render-as-3.jpg?1715144305"
+          "imageTitle": "3/4 view R",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/670/235/large/hans-diaz-render-as-3.jpg?1715144305"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/241/large/hans-diaz-render-as-4.jpg?1715144313"
+          "imageTitle": "Detail plan",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/670/241/large/hans-diaz-render-as-4.jpg?1715144313"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/244/large/hans-diaz-viewport.jpg?1715144321"
-        },
-        {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/670/749/large/hans-diaz-render-as-2.jpg?1715146298"
-        },
-        {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/670/752/large/hans-diaz-render-as-5.jpg?1715146306"
-        },
-        {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/671/001/large/hans-diaz-render-as-9.jpg?1715146931"
-        },
-        {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/671/240/large/hans-diaz-viewport.jpg?1715147832"
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/670/244/large/hans-diaz-viewport.jpg?1715144321"
         }
       ],
       "tools": [
@@ -277,21 +372,25 @@
     {
       "title": "Carrusel - Un Vals Así: Barranco",
       "typeOfModel": "3D",
-      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/700/477/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715205528",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/075/700/637/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1715205845",
       "description": "Estos escenarios 3D son de diferentes locaciones del distrito de Barranco (Lima - Perú), que realicé mientras trabajaba como artista 3D contratado en Star Toons Animation. Aquí solo muestro 2 de los 5 escenarios que realicé para el cortometraje animado, entre estos: Bajada de Baños de Barranco, Mirador de Barranco, El Puente de los Suspiros, Jirón Domeyer en Barranco y diversos props como complemento para el escenario ‘Casa de Jorge Madueño’. En una de las imágenes de este proyecto, muestro un collage con 4 fotos texturizadas, que muestra el resultado final del escenario 3D, tras haber sido texturizado, iluminado y postproducido por mi amigo y colega, Davor Gallegos ‘Franzua’. Se puede apreciar en ese collage cuál es el estilo visual del cortometraje, tratando de mezclar la técnica 3D con un acabado 2D en Blender.",
       "urlProject": "https://www.artstation.com/artwork/5vynEO",
       "images": [
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/699/045/large/hans-diaz-render-bajada-de-banos1.jpg?1715202365"
+          "imageTitle": "Bajada de Baños de Barranco (Lima -Perú)",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/699/045/large/hans-diaz-render-bajada-de-banos1.jpg?1715202365"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/699/047/large/hans-diaz-render-bajada-de-banos2.jpg?1715202371"
+          "imageTitle": "Bajada de Baños de Barranco 2 (Lima -Perú)",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/699/047/large/hans-diaz-render-bajada-de-banos2.jpg?1715202371"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/699/051/large/hans-diaz-render-bajada-de-banos3.jpg?1715202379"
+          "imageTitle": "Jirón Domeyer en Barranco (Lima - Perú)",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/699/051/large/hans-diaz-render-bajada-de-banos3.jpg?1715202379"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/699/724/large/hans-diaz-un-val-asi.jpg?1715203803"
+          "imageTitle": "Estilo visual del cortometraje 'Carrusel: Un Vals Así'",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/699/724/large/hans-diaz-un-val-asi.jpg?1715203803"
         }
       ],
       "tools": [
@@ -315,19 +414,24 @@
       "urlProject": "https://www.artstation.com/artwork/XgKKaY",
       "images": [
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/627/753/large/hans-diaz-render-as-3.jpg?1715049296"
+          "imageTitle": "3/4 view",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/627/753/large/hans-diaz-render-as-3.jpg?1715049296"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/627/751/large/hans-diaz-render-as-2.jpg?1715049288"
+          "imageTitle": "Front view",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/627/751/large/hans-diaz-render-as-2.jpg?1715049288"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/627/757/large/hans-diaz-render-as-4.jpg?1715049305"
+          "imageTitle": "Right view",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/627/757/large/hans-diaz-render-as-4.jpg?1715049305"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/627/758/large/hans-diaz-render-as-1.jpg?1715049314"
+          "imageTitle": "Alternative 3/4 view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/627/758/large/hans-diaz-render-as-1.jpg?1715049314"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/627/760/large/hans-diaz-viewport.jpg?1715049321"
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/627/760/large/hans-diaz-viewport.jpg?1715049321"
         }
       ],
       "tools": [
@@ -367,16 +471,20 @@
       "urlProject": "https://www.artstation.com/artwork/yDwzYx",
       "images": [
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/623/268/large/hans-diaz-render-as-2.jpg?1715034552"
+          "imageTitle": "3/4 view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/623/268/large/hans-diaz-render-as-2.jpg?1715034552"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/623/276/large/hans-diaz-render-as-3.jpg?1715034573"
+          "imageTitle": "Front view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/623/276/large/hans-diaz-render-as-3.jpg?1715034573"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/623/278/large/hans-diaz-render-as-1.jpg?1715034582"
+          "imageTitle": "Alternative 3/4 view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/623/278/large/hans-diaz-render-as-1.jpg?1715034582"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/623/285/large/hans-diaz-viewport.jpg?1715034609"
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/623/285/large/hans-diaz-viewport.jpg?1715034609"
         }
       ],
       "tools": [
@@ -408,19 +516,24 @@
       "urlProject": "https://www.artstation.com/artwork/49JZOk",
       "images": [
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/621/634/large/hans-diaz-carro-as-1.jpg?1715030444"
+          "imageTitle": "3/4 view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/621/634/large/hans-diaz-carro-as-1.jpg?1715030444"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/621/637/large/hans-diaz-carro-as-3.jpg?1715030460"
+          "imageTitle": "Front view",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/621/637/large/hans-diaz-carro-as-3.jpg?1715030460"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/621/640/large/hans-diaz-carro.jpg?1715030485"
+          "imageTitle": "Flat model",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/621/640/large/hans-diaz-carro.jpg?1715030485"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/621/644/large/hans-diaz-carro-as-2.jpg?1715030497"
+          "imageTitle": "Alternative 3/4 view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/621/644/large/hans-diaz-carro-as-2.jpg?1715030497"
         },
         {
-            "original": "https://cdnb.artstation.com/p/assets/images/images/075/621/753/large/hans-diaz-viewport-model-2.jpg?1715030724"
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/075/621/753/large/hans-diaz-viewport-model-2.jpg?1715030724"
         }
       ],
       "tools": [
@@ -452,16 +565,20 @@
       "urlProject": "https://www.artstation.com/artwork/39JOPD",
       "images": [
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/619/374/large/hans-diaz-render-as3.jpg?1715025861"
+          "imageTitle": "3/4 view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/619/374/large/hans-diaz-render-as3.jpg?1715025861"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/619/384/large/hans-diaz-render-as1.jpg?1715025885"
+          "imageTitle": "Front view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/619/384/large/hans-diaz-render-as1.jpg?1715025885"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/619/392/large/hans-diaz-render-as2.jpg?1715025901"
+          "imageTitle": "Alternative 3/4 view",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/619/392/large/hans-diaz-render-as2.jpg?1715025901"
         },
         {
-            "original": "https://cdna.artstation.com/p/assets/images/images/075/619/400/large/hans-diaz-viewport-model-1.jpg?1715025918"
+          "imageTitle": "Viewport - Autodesk Maya",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/075/619/400/large/hans-diaz-viewport-model-1.jpg?1715025918"
         }
       ],
       "tools": [
