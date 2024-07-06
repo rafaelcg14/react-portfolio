@@ -1,9 +1,50 @@
 [
     {
+      "title": "Pokémon Creature",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/077/723/682/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1720175039",
+      "description": "Realicé la escultura digital en ZBrush basada en un concept art. Luego, hice la retopología para obtener una malla optimizada, ya que el personaje es para un proyecto freelance en el sector de videojuegos. También apliqué texturas en Substance Painter y realicé un render sencillo para mostrar las vistas del personaje.",
+      "urlProject": "https://www.artstation.com/artwork/EvrG9N",
+      "images": [
+        {
+          "imageTitle": "Pokémon",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/077/722/563/large/hans-diaz-poke-render-005.jpg?1720173188"
+        },
+        {
+          "imageTitle": "Front view",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/077/722/571/large/hans-diaz-poke-render-001.jpg?1720173202"
+        },
+        {
+          "imageTitle": "Side View",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/077/722/581/large/hans-diaz-poke-render-002.jpg?1720173211"
+        },
+        {
+          "imageTitle": "3/4 View",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/077/722/587/large/hans-diaz-poke-render-003.jpg?1720173225"
+        },
+        {
+          "imageTitle": "Viewport - Substance Painter",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/723/056/large/hans-diaz-captura-de-pantalla-2024-07-05-050620.jpg?1720174046"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "Retopology - Autodesk Maya",
+          "videoUrl": "https://cdn.artstation.com/p/video_sources/002/066/236/2024-07-05-05-01-52.mp4"
+        }
+      ]
+    },
+    {
       "title": "Pocket Walkman",
       "typeOfModel": "3D",
       "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/077/625/063/smaller_square/hans-diaz-hans-diaz-portada-artstation-walkman.jpg?1719930921",
-      "description": "3D modeling, texturing, and lighting created by me, based on the concept art by artist Davey Perkins, who titled this design ‘Pocket Walk.’ For this model, I decided to use a Mid-poly polygon density. Once the 3D model was ready in Autodesk Maya, I textured it in Substance Painter, recreating the texture based on the reference and adding my own details, such as the product label and the back view. Finally, I proceeded to illuminate and set up cameras in Marmoset Toolbag 4 for rendering.",
+      "description": "Modelado 3D, texturizado e iluminación creado por mí, basado en el concept art del artista Davey Perkins, quien tituló a este diseño como ‘Pocket Walk’. Para este modelo, decidí usar una densidad de polígonos Mid-poly. Una vez listo el modelo 3D realizado en Autodesk Maya, texturicé en Substance Painter, donde recreé la textura basándome en la referencia y agregué detalles de mi autoría, como la etiqueta del producto y la vista trasera. Finalmente, procedí a iluminar y crear cámaras en Marmoset Toolbag 4 para realizar el render.",
       "urlProject": "https://www.artstation.com/artwork/9EGXwW",
       "images": [
         {
