@@ -1,6 +1,6 @@
 [
     {
-      "title": "Pokémon Creature",
+      "title": "Monster Voltiger",
       "typeOfModel": "3D",
       "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/078/025/275/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1721000586",
       "description": "Realicé la escultura digital en ZBrush basada en un concept art. Luego, hice la retopología para obtener una malla optimizada, ya que el personaje es para un proyecto freelance en el sector de videojuegos. También apliqué texturas en Substance Painter y realicé un render sencillo para mostrar las vistas del personaje.",
@@ -19,7 +19,7 @@
           "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/024/797/large/hans-diaz-render-poke-camera-4-002.jpg?1720998523"
         },
         {
-          "imageTitle": "3/4 View",
+          "imageTitle": "Viewport - Substance Painter",
           "urlImage": "https://cdna.artstation.com/p/assets/images/images/077/723/056/large/hans-diaz-captura-de-pantalla-2024-07-05-050620.jpg?1720174046"
         }
       ],
@@ -35,7 +35,7 @@
           "videoUrl": "https://cdn.artstation.com/p/video_sources/002/080/833/turn-poke-camera-4-fullquality.mp4"
         },
         {
-          "videoName": "Viewport - Substance Painter",
+          "videoName": "Retopology - Autodesk Maya",
           "videoUrl": "https://cdn.artstation.com/p/video_sources/002/066/236/2024-07-05-05-01-52.mp4"
         }
       ]
