@@ -1,24 +1,43 @@
-import React from 'react'
+import { useState } from 'react';
+
+import { ProjectCard } from './ProjectCard';
+import { Filter } from '../Filter/Filter';
 
 import projects from '../../data/projects.json';
-import { ProjectCard } from './ProjectCard';
 
 import styles from './Projects.module.css';
 
 export const Projects = ( ) => {
-  return (
-    <section className={styles.container} id="projects">
-        <h2 className={styles.title}>Projects</h2>
-        <div className={styles.projects}>
-            {
-                projects.map( (project, id) => {
-                    return (
-                        <ProjectCard key={id} project={project}/>
-                    );
-                } )
-            }
-        </div>
-        <div className={styles.separator}></div>
-    </section>
+  
+    const projects3D = projects.filter(project => project.typeOfModel === '3D');
+    const [ filteredProjects, setFilteredProjects ] = useState( projects3D );
+    
+    const handleFilterChange = ( category ) => {
+        if (category === '3D') {
+            setFilteredProjects(projects3D);
+          } else {
+            const projects2D = projects.filter(project => project.typeOfModel === '2D');
+            setFilteredProjects(projects2D);
+        }
+
+        // const filtered = projects.filter(project => project.typeOfModel === category);
+        // setFilteredProjects(filtered);
+    };
+
+    return (
+        <section className={styles.container} id="projects">
+            <h2 className={styles.title}>Projects</h2>
+            <Filter onFilterChange={handleFilterChange} />
+            <div className={styles.projects}>
+                {
+                    filteredProjects.map( (project, id) => {
+                        return (
+                            <ProjectCard key={id} project={project} />
+                        );
+                    } )
+                }
+            </div>
+            <div className={styles.separator}></div>
+        </section>
   )
 }

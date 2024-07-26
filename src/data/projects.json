@@ -1,5 +1,71 @@
 [
     {
+      "title": "Character Design: 'The Lost Magic'",
+      "typeOfModel": "2D",
+      "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/078/390/792/smaller_square/hans-diaz-hans-diaz-portada-artstation-magia.jpg?1721957122",
+      "description": "Elaboré estas propuestas para el diseño de los personajes principales del cortometraje animado 'La Magia Perdida' en 2021. En este proyecto estudiantil tuve el cargo de Director General y desempeñé diversos roles.",
+      "urlProject": "https://www.artstation.com/artwork/K36yzW",
+      "images": [
+        {
+          "imageTitle": "Character Design - Main characters",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/390/311/large/hans-diaz-positivos-personajes-del-bosque.jpg?1721954663"
+        },
+        {
+          "imageTitle": "Silhouette proposals",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/390/225/large/hans-diaz-estampillados-del-bosque.jpg?1721954380"
+        },
+        {
+          "imageTitle": "Animation guide",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/390/373/large/hans-diaz-model-sheet-2.jpg?1721955141"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
+      "title": "Fanart: Moxxie",
+      "typeOfModel": "2D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/078/389/241/smaller_square/hans-diaz-hans-diaz-portada-artstation-moxxie.jpg?1721950659",
+      "description": "Esta ilustración fanart representa al personaje 'Moxxie' perteneciente al universo de la serie de YouTube 'Helluva Boss', creada por Vivienne Medrano. La idea detrás de este dibujo fue retratar a Moxxie volviéndose loco debido a la pérdida de su querida Millie.",
+      "urlProject": "https://www.artstation.com/artwork/4Nolb1",
+      "images": [
+        {
+          "imageTitle": "Fanart Moxxie",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/078/388/744/large/hans-diaz-moxxie-3-hans-diaz.jpg?1721948621"
+        },
+        {
+          "imageTitle": "Flat color",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/388/739/large/hans-diaz-moxxie-1-hans-diaz.jpg?1721948570"
+        },
+        {
+          "imageTitle": "Lineart",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/078/388/742/large/hans-diaz-moxxie-2-hans-diaz.jpg?1721948595"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
       "title": "Monster Voltiger",
       "typeOfModel": "3D",
       "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/078/025/275/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1721000586",

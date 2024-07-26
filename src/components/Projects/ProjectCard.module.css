@@ -10,7 +10,9 @@
     margin-bottom: 2rem;
     max-width: 450px;
     cursor: pointer;
+    
     transition: transform 0.3s ease-in-out;
+    animation: fade-out 1500ms backwards;
 }
 
 .imageContainer {
@@ -41,12 +43,28 @@
         display: flex;
         padding-inline: 1rem;
         top: 1.25rem;
-        /* padding-bottom: 86%; */
     }
 
     .image {
-        /* filter: opacity(30%) sepia(40%) hue-rotate(170deg) saturate(500%); */
-        filter: opacity(60%);
+        filter: opacity(50%);
     }
 
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    100% {
+        opacity: 1;
+    }
+    0% {
+        opacity: 0;
+    }
 }
