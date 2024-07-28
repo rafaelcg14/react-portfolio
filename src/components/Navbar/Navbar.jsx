@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 import styles from './Navbar.module.css';
 import { getImageUrl } from '../../utils';
@@ -22,9 +22,9 @@ export const Navbar = () => {
                 <li>
                     <a href="#home">Home</a>
                 </li>
-                {/* <li>
-                    <a href="#showreel">ShoowReel</a>
-                </li> */}
+                <li>
+                    <a href="#showreel">ShowReel</a>
+                </li>
                 <li>
                     <a href="#projects">Projects</a>
                 </li>

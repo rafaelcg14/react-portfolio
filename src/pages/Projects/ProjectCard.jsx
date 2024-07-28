@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 
-import { ProjectModal } from '../Modals/ProjectModal/ProjectModal';
+import { ProjectModal } from '../../components/Modals/ProjectModal/ProjectModal';
 
 import styles from './ProjectCard.module.css';
 

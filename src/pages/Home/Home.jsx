@@ -1,6 +1,4 @@
-import React from 'react'
-
-import { getImageUrl } from '../../../utils';
+import { getImageUrl } from '../../utils';
 
 import styles from './Home.module.css';
 
@@ -34,10 +32,10 @@ export const Home = () => {
 
 
             <div className={styles.additionalContainer}>
-                {/* <div className={styles.reelContainer}>
+                <div className={styles.reelContainer}>
                     <img className={styles.playIcon} src={getImageUrl('home/play-icon.svg')} alt="play" />
                     <a className={styles.showReel} href="#showreel">Showreel</a>
-                </div> */}
+                </div>
                 <ul className={styles.links}>
                     <li className={styles.link}>
                         <a href="https://www.instagram.com/hans_arte/?hl=es-la" target="_blank">

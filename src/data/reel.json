@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Show Reel",
+        "typeOfReel": "3D",
+        "video": "https://res.cloudinary.com/dq3seqmbx/video/upload/Coming_Soon_Showreel_3D_mp4_vnqt0q.mp4?_s=vp-2.0.2"
+    },
+    {
+        "title": "Demo Reel",
+        "typeOfReel": "2D",
+        "video": "https://res.cloudinary.com/dq3seqmbx/video/upload/HANS_DIAZ_-_DEMO_REEL_2D_ANIMATION_tgxzpr.mp4?_s=vp-2.0.2"
+    }
+]

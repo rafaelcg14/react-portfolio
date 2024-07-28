@@ -5,8 +5,9 @@
     flex-direction: column;
     border-radius: 1rem;
     background: linear-gradient(100deg, #383838 0%, #414452 100%);
-    box-shadow: 0 16px 14px 0 #242323;
-    padding: 7px 7px;
+    /* box-shadow: 0 16px 14px 0 #242323; */
+    box-shadow: 12px 10px 14px 1px #242323;
+    padding: 4px 4px;
     margin-bottom: 2rem;
     max-width: 450px;
     cursor: pointer;
