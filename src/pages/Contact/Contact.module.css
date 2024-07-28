@@ -66,6 +66,10 @@ p {
     font-family: var(--font-quicksand);
 }
 
+.link .phoneNumber {
+    user-select: none;
+}
+
 .link img {
     display: flex;
     height: 1rem;

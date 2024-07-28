@@ -1,15 +1,13 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
 
-import { ProjectModal } from '../Modals/ProjectModal/ProjectModal';
-
-import { getImageUrl } from '../../utils';
+import { ProjectModal } from '../../components/Modals/ProjectModal/ProjectModal';
 
 import styles from './ProjectCard.module.css';
 
-export const ProjectCard = ({project: {title, imageSrc, description, skills, tools, images, videos, urlProject}}) => {
-    const [isModalOpened, setisModalOpened] = useState(false);
-    // console.log('isModalOpened', isModalOpened);
+export const ProjectCard = ({project: {title, imageSrc, description, skills, tools, images, videos, urlProject,typeOfModel}}) => {
+    
+    const [ isModalOpened, setisModalOpened ] = useState(false);
 
     useEffect(() => {
         const body = document.querySelector('body');
@@ -18,7 +16,7 @@ export const ProjectCard = ({project: {title, imageSrc, description, skills, too
     
       
     return (
-        <div>
+        <div className={styles.abc}>
             <ProjectModal 
                 className={styles.projectModal} 
                 isOpened={isModalOpened} 

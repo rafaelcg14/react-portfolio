@@ -5,12 +5,15 @@
     flex-direction: column;
     border-radius: 1rem;
     background: linear-gradient(100deg, #383838 0%, #414452 100%);
-    box-shadow: 0 16px 14px 0 #242323;
-    padding: 7px 7px;
+    /* box-shadow: 0 16px 14px 0 #242323; */
+    box-shadow: 12px 10px 14px 1px #242323;
+    padding: 4px 4px;
     margin-bottom: 2rem;
     max-width: 450px;
     cursor: pointer;
+    
     transition: transform 0.3s ease-in-out;
+    animation: fade-out 1500ms backwards;
 }
 
 .imageContainer {
@@ -41,12 +44,28 @@
         display: flex;
         padding-inline: 1rem;
         top: 1.25rem;
-        /* padding-bottom: 86%; */
     }
 
     .image {
-        /* filter: opacity(30%) sepia(40%) hue-rotate(170deg) saturate(500%); */
-        filter: opacity(60%);
+        filter: opacity(50%);
     }
 
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    100% {
+        opacity: 1;
+    }
+    0% {
+        opacity: 0;
+    }
 }

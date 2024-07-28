@@ -1,5 +1,183 @@
 [
     {
+      "title": "Original Character: Mafia",
+      "typeOfModel": "2D",
+      "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/078/423/478/smaller_square/hans-diaz-hans-diaz-portada-artstation-vato.jpg?1722058718",
+      "description": "Realicé esta ilustración de un personaje creado por mí, desde la idea hasta el render final. La idea del personaje es la de un mafioso encantador.",
+      "urlProject": "https://www.artstation.com/artwork/4NoPgW",
+      "images": [
+        {
+          "imageTitle": "Illustration - Mafia",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/423/471/large/hans-diaz-render-jpg.jpg?1722058683"
+        },
+        {
+          "imageTitle": "Black background",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/423/427/large/hans-diaz-render-3.jpg?1722058529"
+        },
+        {
+          "imageTitle": "Watermark",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/423/459/large/hans-diaz-render-4-jpg.jpg?1722058640"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
+      "title": "Fanart: Moxxie",
+      "typeOfModel": "2D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/078/389/241/smaller_square/hans-diaz-hans-diaz-portada-artstation-moxxie.jpg?1721950659",
+      "description": "Esta ilustración fanart representa al personaje 'Moxxie' perteneciente al universo de la serie de YouTube 'Helluva Boss', creada por Vivienne Medrano. La idea detrás de este dibujo fue retratar a Moxxie volviéndose loco debido a la pérdida de su querida Millie.",
+      "urlProject": "https://www.artstation.com/artwork/4Nolb1",
+      "images": [
+        {
+          "imageTitle": "Fanart Moxxie",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/078/388/744/large/hans-diaz-moxxie-3-hans-diaz.jpg?1721948621"
+        },
+        {
+          "imageTitle": "Flat color",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/388/739/large/hans-diaz-moxxie-1-hans-diaz.jpg?1721948570"
+        },
+        {
+          "imageTitle": "Lineart",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/078/388/742/large/hans-diaz-moxxie-2-hans-diaz.jpg?1721948595"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
+      "title": "Illustration: Lyna",
+      "typeOfModel": "2D",
+      "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/078/425/420/smaller_square/hans-diaz-hans-diaz-portada-artstation-lyna.jpg?1722066982",
+      "description": "Hice esta ilustración para el cortometraje 3D 'Immersive' en 2023. Fue un proyecto estudiantil en el que desempeñé el cargo de Director General. El diseño de este personaje fue desarrollado por un integrante de mi equipo, Diego Delgado, y basándome en su diseño, realicé esta ilustración. El personaje se llama Lyna y es una Idol Kpop.",
+      "urlProject": "https://www.artstation.com/artwork/EzqZB2",
+      "images": [
+        {
+          "imageTitle": "Illustration - Lyna",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/425/239/large/hans-diaz-render-3.jpg?1722066195"
+        },
+        {
+          "imageTitle": "Black Background",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/078/425/236/large/hans-diaz-render-2.jpg?1722066183"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
+      "title": "Character Design: 'The Lost Magic'",
+      "typeOfModel": "2D",
+      "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/078/390/792/smaller_square/hans-diaz-hans-diaz-portada-artstation-magia.jpg?1721957122",
+      "description": "Elaboré estas propuestas para el diseño de los personajes principales del cortometraje animado 'La Magia Perdida' en 2021. En este proyecto estudiantil tuve el cargo de Director General y desempeñé diversos roles.",
+      "urlProject": "https://www.artstation.com/artwork/K36yzW",
+      "images": [
+        {
+          "imageTitle": "Character Design - Main characters",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/390/311/large/hans-diaz-positivos-personajes-del-bosque.jpg?1721954663"
+        },
+        {
+          "imageTitle": "Silhouette proposals",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/390/225/large/hans-diaz-estampillados-del-bosque.jpg?1721954380"
+        },
+        {
+          "imageTitle": "Animation guide",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/390/373/large/hans-diaz-model-sheet-2.jpg?1721955141"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
+      "title": "Portrait: Biyín",
+      "typeOfModel": "2D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/078/443/943/smaller_square/hans-diaz-hans-diaz-portada-artstation-portrait-3.jpg?1722121477",
+      "description": "Uno de mis pasatiempos siempre ha sido realizar retratos, y en esta ilustración plasmo a la streamer Biyín. Realicé este retrato en Photoshop con una técnica semirrealista, dándole mi toque personal.",
+      "urlProject": "https://www.artstation.com/artwork/K36vqW",
+      "images": [
+        {
+          "imageTitle": "Portrait - Biyín",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/443/893/large/hans-diaz-ilustracion-3-jpg.jpg?1722121213"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
+      "title": "Portrait: Syddni",
+      "typeOfModel": "2D",
+      "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/078/443/864/smaller_square/hans-diaz-hans-diaz-portada-artstation-portrait-2.jpg?1722121129",
+      "description": "Uno de mis pasatiempos siempre ha sido realizar retratos, y en esta ilustración plasmo a la influencer Syddni Nicole. Realicé este retrato en Photoshop con una técnica semirrealista, dándole mi toque personal.",
+      "urlProject": "https://www.artstation.com/artwork/L45Ool",
+      "images": [
+        {
+          "imageTitle": "Portrait - Syddni",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/078/443/759/large/hans-diaz-ilustracion-2-jpg.jpg?1722120529"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
       "title": "Monster Voltiger",
       "typeOfModel": "3D",
       "imageSrc": "https://cdnb.artstation.com/p/assets/covers/images/078/025/275/smaller_square/hans-diaz-hans-diaz-portada-artstation.jpg?1721000586",

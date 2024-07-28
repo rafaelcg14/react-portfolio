@@ -1,7 +1,7 @@
 import { getImageUrl } from '../../utils';
 import skillsData from '../../data/skillsData.json';
 import styles from './About.module.css';
-import { CardAbout } from '../CardAbout/CardAbout';
+import { CardAbout } from '../../components/CardAbout/CardAbout';
 
 import cv from '../../static/cv.pdf';
 

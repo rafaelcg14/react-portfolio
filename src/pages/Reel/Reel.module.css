@@ -1,12 +1,12 @@
-@import '../../../vars.css';
+@import '../../vars.css';
 
 .container {
-    background-color:#25292F80;
-    background-image: radial-gradient(
+    /* background-color:#25292F80; */
+    /* background-image: radial-gradient(
         farthest-corner at 100% 100%,
         #222428 0%,
         #121417 100%
-    );
+    ); */
     /* margin-top: 70px; */
     color: var(--color-text);
     /* margin-left: 10%;
@@ -65,20 +65,20 @@
     position: relative;
     margin: 0 auto;
     margin-bottom: 0.5rem;
-    width: fit-content;
-    /* object-fit: cover; */
     padding-inline: 10rem;
+    max-width: 1500px;
     z-index: 1;
 }
 
 .videoItem {
-    border-radius: 1.2rem;
-    top: 0;
-    left: 0;
+    /* border-radius: 1.2rem; */
+    /* top: 0; */
+    /* left: 0; */
     width: 100%;
     min-height: 100%;
+    border: none;
+    /* background-color: red; */
 }
-
 
 .separator {
     position: absolute;
@@ -88,7 +88,6 @@
     background-color: var(--color-primary);
     /* z-index: 1; */
 }
-
 
 /* @media screen and (max-width: 1200px) {
     .videoItem {
@@ -112,6 +111,6 @@
 @media screen and (max-width: 1020px) {
     .videoContainer {
         padding: 0;
-        margin-inline: 10%;
+        margin-inline: 5%;
     }
 }
