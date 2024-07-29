@@ -12,6 +12,21 @@
       "icon": "work"
     },
     {
+      "role": "2D Animator",
+      "location": "Lima, Peru",
+      "organization": "Suegra Modelo (Canal de YouTube)",
+      "date": "Sept, 2023 - Dec, 2023",
+      "description": "Animador 2D para la intro animada 'Suegra Modelo', un canal de Youtube con contenido podcast protagonizado por la modelo y presentadora de televisión Cati Caballero y su yerno Mateo.",
+      "achievements": [
+        "Diseño de personajes principales (Cati y Mateo), con su respectiva guía de animación.",
+        "Realizar tomas animadas 2D completas, desde el Rough hasta el Clean.",
+        "Tinta y Color para las tomas animadas.",
+        "Contribución en el guión y desarrollo de la intro."
+      ],
+      "imageSrc": "history/suegra-modelo-logo.jpg",
+      "icon": "work"
+    },
+    {
       "role": "3D Modeler",
       "location": "Lima, Peru",
       "organization": "Star Toons Animation",
