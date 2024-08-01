@@ -13,7 +13,7 @@ export const Home = () => {
                 <div className={styles.userContent}>
                     <h3 className={styles.name}>Hans Díaz</h3>
                     {/* <p className={styles.subtitle}>3D Artist | Modeling and Texturing</p> */}
-                    <p className={styles.subtitle}>3D Artist & 2D Animator</p>
+                    <p className={styles.subtitle}>3D Artist | Modeling, Texturing and Lighting</p>
                 </div>
             </div>
             
