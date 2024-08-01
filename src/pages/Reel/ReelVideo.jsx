@@ -9,7 +9,6 @@ export const ReelVideo = ( { video} ) => {
             controlsList="nodownload noremoteplayback noplaybackrate"
             loop
             disablePictureInPicture
-            muted
         >
             <source 
                 src={video}

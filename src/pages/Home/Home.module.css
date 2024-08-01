@@ -97,7 +97,7 @@
     background-color: var(--color-primary);
     background-image: linear-gradient(90deg, #4070FF, #00A3FF);
     border-radius: 1rem;
-    margin-bottom: 15px;
+    margin-top: 1.5rem;
     cursor: pointer;
     transition: background .1s linear;
 }

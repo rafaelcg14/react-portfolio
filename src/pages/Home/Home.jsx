@@ -14,6 +14,10 @@ export const Home = () => {
                     <h3 className={styles.name}>Hans Díaz</h3>
                     {/* <p className={styles.subtitle}>3D Artist | Modeling and Texturing</p> */}
                     <p className={styles.subtitle}>3D Artist | Modeling, Texturing and Lighting</p>
+                    <div className={styles.reelContainer}>
+                        <img className={styles.playIcon} src={getImageUrl('home/play-icon.svg')} alt="play" />
+                        <a className={styles.showReel} href="#showreel">Showreel</a>
+                    </div>
                 </div>
             </div>
             
@@ -22,6 +26,7 @@ export const Home = () => {
                     className={styles.videoItem}
                     autoPlay
                     loop
+                    muted
                 >
                     <source 
                         src="https://cdn.artstation.com/p/video_sources/001/958/104/escenario-arabe-video.mp4"
@@ -32,10 +37,6 @@ export const Home = () => {
 
 
             <div className={styles.additionalContainer}>
-                <div className={styles.reelContainer}>
-                    <img className={styles.playIcon} src={getImageUrl('home/play-icon.svg')} alt="play" />
-                    <a className={styles.showReel} href="#showreel">Showreel</a>
-                </div>
                 <ul className={styles.links}>
                     <li className={styles.link}>
                         <a href="https://www.instagram.com/hans_arte/?hl=es-la" target="_blank">
