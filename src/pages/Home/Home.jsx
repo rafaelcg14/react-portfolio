@@ -22,7 +22,6 @@ export const Home = () => {
                     className={styles.videoItem}
                     autoPlay
                     loop
-                    muted
                 >
                     <source 
                         src="https://cdn.artstation.com/p/video_sources/001/958/104/escenario-arabe-video.mp4"
