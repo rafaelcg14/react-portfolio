@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .component {
-    background: #151515;
+    background: #111;
 }
 
 .container {
@@ -127,6 +127,46 @@ input, textarea {
 
 .btnSend:focus {
     scale: 1;
+}
+
+.sentEmail {
+    display: none;
+    position: fixed;
+    font-family: var(--font-quicksand);
+    background-color: rgb(10, 212, 3);
+    color: #000;
+    font-weight: 700;
+    width: max-content;
+    padding: .5rem 4rem;
+    border-radius: 12px;
+    /* margin: 0 auto; */
+    top: 110px;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.errorEmail {
+    display: none;
+    position: fixed;
+    font-family: var(--font-quicksand);
+    background-color: rgb(228, 84, 27);
+    color: #000;
+    font-weight: 700;
+    width: max-content;
+    padding: .5rem 4rem;
+    border-radius: 12px;
+    /* margin: 0 auto; */
+    top: 110px;
+    /* top: 50%; */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.show {
+    display: block;
 }
 
 @media screen and (max-width: 450px) {

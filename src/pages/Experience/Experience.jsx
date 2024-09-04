@@ -24,7 +24,7 @@ export const Experience = () => {
      };
 
     const experienceContent = {
-        'background': '#444',
+        'background': '#151515',
         'boxShadow': '0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.45)',
         'marginBottom': '-50px',
         'padding-inline': '2rem',

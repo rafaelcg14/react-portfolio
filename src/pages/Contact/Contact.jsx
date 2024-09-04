@@ -1,4 +1,4 @@
-import { useRef } from 'react';
+import { useRef, useState, useEffect } from 'react';
 
 import emailjs from '@emailjs/browser';
 
@@ -9,6 +9,8 @@ import styles from './Contact.module.css';
 export const Contact = () => {
   
     const form = useRef();
+    const [emailStatus, setEmailStatus] = useState(null);
+
     const sendEmail = (e) => {
         e.preventDefault();
     
@@ -19,14 +21,26 @@ export const Contact = () => {
             .then(
                 () => {
                     console.log('SUCCESS!');
+                    setEmailStatus('success');
                 },
                 (error) => {
                     console.log('FAILED...', error.text);
+                    setEmailStatus('error');
                 },
             );
         
         e.target.reset();
     };
+
+    useEffect(() => {
+        if (emailStatus) {
+            const timer = setTimeout(() => {
+                setEmailStatus(null);
+            }, 3000);
+
+            return () => clearTimeout(timer);
+        }
+    }, [emailStatus]);
 
     return (
         <div className={styles.component} id="contact">
@@ -51,14 +65,24 @@ export const Contact = () => {
                         ref={form}
                         onSubmit={sendEmail}
                     >
-                        <input type="text" name='user_name' placeholder='Name or Company' required />
-                        <input type="email" name='user_email' placeholder='Email' required />
-                        <input type="text" name='subject' placeholder='Subject' required />
+                        <input type="text" name='user_name' placeholder='Your Name or Company' required />
+                        <input type="email" name='user_email' placeholder='Your Email' required />
+                        <input type="text" name='subject' placeholder='Your Subject' required />
                         <textarea name="message" id="" rows="7" placeholder='Write Your Message Here...' required></textarea>
                         <button className={styles.btnSend} type='submit'>Send Message</button>
                     </form>
                 </div>
             </section>
+            <div
+                className={`${styles.sentEmail} ${emailStatus === 'success' ? styles.show : ''}`}
+            >
+                Perfect! Hans Díaz has received your email.
+            </div>
+            <div
+                className={`${styles.errorEmail} ${emailStatus === 'error' ? styles.show : ''}`}
+            >
+                An error has occurred. Try to send the form again.
+            </div>
         </div>
     )
 }

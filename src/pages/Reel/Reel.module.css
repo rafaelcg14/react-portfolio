@@ -1,16 +1,8 @@
 @import '../../vars.css';
 
 .container {
-    /* background-color:#25292F80; */
-    /* background-image: radial-gradient(
-        farthest-corner at 100% 100%,
-        #222428 0%,
-        #121417 100%
-    ); */
-    /* margin-top: 70px; */
+    background: #111;
     color: var(--color-text);
-    /* margin-left: 10%;
-    margin-right: 10%; */
     padding-top: 10px;
     padding-bottom: 60px;
     align-content: center;
@@ -88,25 +80,6 @@
     background-color: var(--color-primary);
     /* z-index: 1; */
 }
-
-/* @media screen and (max-width: 1200px) {
-    .videoItem {
-        height: 500px;
-    }
-} */
-
-
-/* @media screen and (max-width: 935px) {
-    .videoContainer {
-        padding-inline: 80px;
-    }
-}
-
-@media screen and (max-width: 490px) {
-    .videoContainer {
-        padding-inline: 40px;
-    }
-} */
 
 @media screen and (max-width: 1020px) {
     .videoContainer {
