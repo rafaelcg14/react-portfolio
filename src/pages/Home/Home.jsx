@@ -20,7 +20,6 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
-            
             <div className={styles.imageGalleryContainer}>
                 <video 
                     className={styles.videoItem}
@@ -34,8 +33,6 @@ export const Home = () => {
                     />
                 </video>
             </div>
-
-
             <div className={styles.additionalContainer}>
                 <ul className={styles.links}>
                     <li className={styles.link}>
