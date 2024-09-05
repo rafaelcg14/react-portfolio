@@ -1,7 +1,7 @@
 @import '../../vars.css';
 
 .mainContainer {
-    background-color: #222;
+    background-color: #1c1f24;
 }
 
 .container {
@@ -164,7 +164,7 @@
         margin-bottom: -1rem;
     }
 
-    .experienceTitle {
+    /* .experienceTitle {
         font-size: 1rem;
     }
 
@@ -174,5 +174,5 @@
 
     .descriptionExperience, .achievementsList {
         font-size: 0.5rem !important;
-    }
+    } */
 }

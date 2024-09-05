@@ -4,7 +4,7 @@
       "location": "Lima, Peru",
       "organization": "Freelance",
       "date": "Currently",
-      "description": "Modelado de props y escenarios por comisión en páginas como Workana, Fiverr y UpWork.",
+      "description": " Modeled and textured props and characters on commission for platforms like Workana, Fiverr, and UpWork.",
       "achievements": [
         
       ],
@@ -14,14 +14,14 @@
     {
       "role": "2D Animator",
       "location": "Lima, Peru",
-      "organization": "Suegra Modelo (Canal de YouTube)",
+      "organization": "Suegra Modelo (YouTube channel)",
       "date": "Sept, 2023 - Dec, 2023",
-      "description": "Animador 2D para la intro animada 'Suegra Modelo', un canal de Youtube con contenido podcast protagonizado por la modelo y presentadora de televisión Cati Caballero y su yerno Mateo.",
+      "description": " 2D Animator for the animated intro “Suegra Modelo,” a YouTube channel with podcast content featuring model and TV presenter Cati Caballero and her son-in-law Mateo.",
       "achievements": [
-        "Diseño de personajes principales (Cati y Mateo), con su respectiva guía de animación.",
-        "Realizar tomas animadas 2D completas, desde el Rough hasta el Clean.",
-        "Tinta y Color para las tomas animadas.",
-        "Contribución en el guión y desarrollo de la intro."
+        "Designed main characters (Cati and Mateo) with their respective animation guides.",
+        "Created complete 2D animated shots, from Rough to Clean.",
+        "Inked and colored the animated shots.",
+        "Contributed to the script and development of the intro."
       ],
       "imageSrc": "history/suegra-modelo-logo.jpg",
       "icon": "work"
@@ -31,29 +31,29 @@
       "location": "Lima, Peru",
       "organization": "Star Toons Animation",
       "date": "Apr, 2023 - Sept, 2023",
-      "description": "Participación en el cortometraje animado 'Carrusel' ('Un Vals Así'). Cortometraje inspirado en la vida y obra del compositor peruano Jorge Madueño.",
+      "description": "Participated in the animated short film “Carrusel” (“Un Vals Así”), inspired by the life and work of Peruvian composer Jorge Madueño.",
       "achievements": [
         "Modelar escenarios y props 3D de diferentes locaciones del distrito de Barranco (Lima, Perú) realizados en Autodesk Maya y Blender.",
-        "Texturizar props con estilo Toon Shader en Blender.",
-        "Realizar storyboard para algunas escenas del cortometraje.",
-        "Realizar pruebas de animación 2D del personaje principal."
+        "Textured props with Toon Shader style in Blender (Grease Pencil).",
+        "Created storyboards for some scenes of the short film.",
+        "Conducted 2D animation tests for the main character."
       ],
       "imageSrc": "history/star-toon.jpg",
       "icon": "work"
     },
     {
-      "role": "Animación Digital 2D & 3D",
+      "role": "Digital Animation",
       "location": "Lima, Peru",
       "organization": "Escuela Superior Toulouse Lautrec",
       "date": "Aug, 2019 - Jun, 2023",
-      "description": "Durante la carrera desarrollé el dominio de tecnicas 2D, 3D y VFX para cine, publicidad y videojuegos.",
+      "description": "Developed skills in 2D and 3D techniques for film, advertising, and video games.",
       "achievements": [
-        "Alumno becado por excelencia académica en 2020.",
-        "Animador Junior para el piloto animado 2D 'Luchín Gonzales' en 2020.",
-        "Participante del 'GameJam 48hrs 2020', como Codirector de arte.",
-        "Director General del cortometraje 2D 'La Magia Perdida' en 2021.",
-        "Participante del 'GameJam 48hrs 2022', como Codirector de arte.",
-        "Director General del cortometraje 3D 'Inmersive' en 2022 -2023."
+        "Scholarship for academic excellence in 2020.",
+        "Junior Animator for the 2D animated pilot “Luchín Gonzales” 2020.",
+        "Co-Art Director for “GameJam 48hrs 2020”.",
+        "General Director of the 2D short film “La Magia Perdida” 2021.",
+        "Co-Art Director for 'GameJam 48hrs 2022'.",
+        "General Director of the 3D short film “Inmersive” 2022-2023."
       ],
       "imageSrc": "history/toulouse-lautrec.jpg",
       "icon": "education"

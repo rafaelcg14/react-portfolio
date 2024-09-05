@@ -5,7 +5,7 @@
     font-family: 'Red Rose Variable', Arial, Helvetica, sans-serif;
     
     scrollbar-color: var(--color-primary) #151515;
-    scrollbar-width: thin;
+    scrollbar-width: auto;
 }
 
 html {
