@@ -68,6 +68,7 @@ export const ProjectModal = ( {isOpened, onClose, details} ) => {
                                             <div className={styles.toolImageContainer}>
                                                 <img src={getImageUrl(tool.imageSrc)} alt={tool.title} />
                                             </div>
+                                            <span className={styles.toolName}>{tool.name}</span>
                                         </div>
                                     );
                                 } ) }
