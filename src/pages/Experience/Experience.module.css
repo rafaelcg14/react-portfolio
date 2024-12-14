@@ -73,10 +73,11 @@
 }
 
 .achievementsList {
-    font-size: 1rem;
+    font-size: 0.75rem;
     list-style-type: circle;
     list-style-position: inside;
     padding-left: 5rem;
+    word-wrap: break-word;
 }
 
 .achievementItem {
@@ -164,15 +165,4 @@
         margin-bottom: -1rem;
     }
 
-    /* .experienceTitle {
-        font-size: 1rem;
-    }
-
-    .experienceOrganization {
-        font-size: .75rem;
-    }
-
-    .descriptionExperience, .achievementsList {
-        font-size: 0.5rem !important;
-    } */
 }

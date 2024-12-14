@@ -1,6 +1,6 @@
 import styles from './Reel.module.css';
 
-export const ReelVideo = ( { video} ) => {
+export const ReelVideo = ( { video } ) => {
     return (
         <video 
             key={video}

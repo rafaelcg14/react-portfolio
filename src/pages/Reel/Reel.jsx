@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react';
 
-import { Filter } from '../../components/Filter/Filter';
-
 import { getImageUrl } from '../../utils';
 import reelData from '../../data/reel.json';
 
@@ -10,18 +8,6 @@ import  { ReelVideo }  from './ReelVideo';
 
 export const Reel = () => {
     const reel3D = reelData.filter(reel => reel.typeOfReel === '3D');
-    
-    const [ filteredReel, setFilteredReel ] = useState( reel3D );
-
-    const handleFilterChange = ( category ) => {
-        if (category === '3D') {
-            setFilteredReel(reel3D);
-        }
-        else  {
-            const reel2D = reelData.filter(reel => reel.typeOfReel === '2D');
-            setFilteredReel(reel2D);
-        }
-    };
 
     return (
         <section className={styles.container} id="showreel">
@@ -32,9 +18,8 @@ export const Reel = () => {
                     <h2 className={styles.title2}>Reel</h2>
                 </div>
             </div>
-            <Filter onFilterChange={handleFilterChange} />
             <div className={styles.videoContainer}>
-                {filteredReel.map((reel, index) => (
+                {reel3D.map((reel, index) => (
                     <ReelVideo key={index} video={reel.video} />
                 ))}
             </div>
