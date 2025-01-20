@@ -1,5 +1,46 @@
 [
     {
+      "title": "Thai: Character",
+      "typeOfModel": "3D",
+      "imageSrc": "https://cdnb.artstation.com/p/assets/images/images/083/976/389/smaller_square/hans-diaz-thai-pecas-1.jpg?1737246377",
+      "description": "",
+      "urlProject": "https://www.artstation.com/artwork/K3Pblx",
+      "images": [
+        {
+          "imageTitle": "Front View",
+          "urlImage": "https://cdnb.artstation.com/p/assets/images/images/083/976/389/large/hans-diaz-thai-pecas-1.jpg?1737246377"
+        },
+        {
+          "imageTitle": "Model Sheet",
+          "urlImage": "https://cdna.artstation.com/p/assets/images/images/083/801/214/large/hans-diaz-hoja-de-personaje.jpg?1736830285"
+        }
+      ],
+      "tools": [
+        {
+          "name": "Maya",
+          "imageSrc": "skills/maya-icon.svg"
+        },
+        {
+          "name": "ZBrush",
+          "imageSrc": "skills/zbrush-icon.svg"
+        },
+        {
+          "name": "Substance 3D Painter",
+          "imageSrc": "skills/substance-icon.svg"
+        },
+        {
+          "name": "Arnold",
+          "imageSrc": "skills/arnold-icon.png"
+        }
+      ],
+      "videos": [
+        {
+          "videoName": "",
+          "videoUrl": ""
+        }
+      ]
+    },
+    {
       "title": "Original Character: Mafia",
       "typeOfModel": "2D",
       "imageSrc": "https://cdna.artstation.com/p/assets/covers/images/078/423/478/smaller_square/hans-diaz-hans-diaz-portada-artstation-vato.jpg?1722058718",

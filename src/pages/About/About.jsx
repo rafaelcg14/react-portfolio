@@ -29,7 +29,7 @@ export const About = () => {
                 </a>
                 <a className={styles.resumeBtn} href={cv} download="CV - Hans Diaz - 3D Artist.pdf">
                   <img src={getImageUrl('about/file-icon.svg')} alt="CV icon" />
-                  Download CV (ES)
+                  Descargar CV (ES)
                 </a>
               </div>
             </div>
