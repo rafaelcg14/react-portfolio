@@ -1,13 +1,9 @@
-import { useEffect, useState } from 'react';
 
 import { getImageUrl } from '../../utils';
-import reelData from '../../data/reel.json';
 
 import styles from './Reel.module.css';
-import  { ReelVideo }  from './ReelVideo';
 
 export const Reel = () => {
-    const reel3D = reelData.filter(reel => reel.typeOfReel === '3D');
 
     return (
         <section className={styles.container} id="showreel">
@@ -18,11 +14,18 @@ export const Reel = () => {
                     <h2 className={styles.title2}>Reel</h2>
                 </div>
             </div>
+            
+            {/* Video */}
             <div className={styles.videoContainer}>
-                {reel3D.map((reel, index) => (
-                    <ReelVideo key={index} video={reel.video} />
-                ))}
+                <iframe
+                    src="https://www.youtube.com/embed/bwuPMoGaPKM"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                ></iframe>
             </div>
+
             <div className={styles.separator}></div>
         </section>
     )
