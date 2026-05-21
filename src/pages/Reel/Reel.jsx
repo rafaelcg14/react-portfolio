@@ -18,7 +18,7 @@ export const Reel = () => {
             {/* Video */}
             <div className={styles.videoContainer}>
                 <iframe
-                    src="https://www.youtube.com/embed/bwuPMoGaPKM"
+                    src="https://www.youtube.com/embed/dJDsjzWGf7U"
                     title="YouTube video player"
                     frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
